@@ -1,0 +1,103 @@
+version: "0.1"
+services:
+
+  backend:
+    container_name: fastapi-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: /code/start-backend.sh
+    env_file:
+      - .env
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+
+  db:
+      container_name: oracle-db
+      hostname: oracle-db
+      shm_size: 8g  
+      ports:
+          - '1521:1521'
+      volumes:
+          - oracle-data:/opt/oracle/oradata
+          - oracle-backup:/opt/oracle/backup
+      image: container-registry.oracle.com/database/free
+      env_file:
+        - .env
+      environment:
+        ORACLE_PWD: $ORACLE_ADMIN_PASSWORD
+        ORACLE_ALLOW_REMOTE: true
+        ORACLE_SID: $ORACLE_SID
+
+  cloudbeaver:
+      container_name: cloudbeaver
+      build:
+        context: ./cloudbeaver
+        dockerfile: Dockerfile
+      ports:
+       - '8080:8978'
+      env_file:
+       - .env
+      environment:
+        CB_SERVER_NAME: "Test Cloudbeaver instance"
+        CB_SERVER_URL: "http://localhost:8978"
+        CB_ADMIN_NAME: $CLOUDBEAVER_ADMIN_USERNAME
+        CB_ADMIN_PASSWORD: $CLOUDBEAVER_ADMIN_PASSWORD
+      volumes: 
+       - cloudbeaver:/opt/cloudbeaver/workspace 
+      depends_on:
+        - db
+
+  celery-worker:
+    container_name: celery-worker
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: /code/start-worker.sh
+    env_file:
+      - .env
+    depends_on:
+      - redis
+      - backend
+      - db
+
+  celery-beat:
+    container_name: celery-beat
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: /code/start-beat.sh
+    env_file:
+      - .env
+    depends_on:
+      - redis
+      - backend
+      - db
+
+  celery-flower:
+    container_name: celery-flower
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: /code/start-flower.sh
+    env_file:
+      - .env
+    ports:
+      - 5555:5555
+    depends_on:
+      - redis
+      - backend
+      - db
+
+  redis:
+    container_name: "redis"
+    image: redis:7.2-alpine
+    ports:
+      - 6379:6379
+
+volumes:
+  oracle-data:
+  oracle-backup:
+  cloudbeaver:
