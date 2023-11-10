@@ -3,7 +3,7 @@ name: flake8
 on: [push]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -17,10 +17,11 @@ jobs:
         pip install poetry
     - name: Install dependencies
       run: |
-        poetry install
-    - name: Enter shell
-      run: |
-        cd backend/app && poetry shell
+        cd backend
+        poetry config virtualenvs.create false
+        poetry install --no-interaction --no-ansi
     - name: Run flake8 analysis
       run: |
+        cd backend/app
+        poetry shell
         flake8
