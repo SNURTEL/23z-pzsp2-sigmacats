@@ -91,6 +91,6 @@ Default config is stored in `.env.sample`. Default credentials included:
 Non-technical project documentation is available on [project Google Drive](https://drive.google.com/drive/folders/1Zp6dHEMV8WkCuym4bZPDuKnoiORsDU2a).
 
 ### Contributing
-- Project development is managed in a [GitLab Issue Board](https://gitlab-stud.elka.pw.edu.pl/towienko/23z-pzsp2-sigmacats/-/boards/1050) (not anymore!)
+- Project development is managed in a GitHub project [issue board](https://github.com/users/SNURTEL/projects/1/views/1)
 - For code structure and task workflow description check [CONTRIBUTING.md](CONTRIBUTING.md)
 
