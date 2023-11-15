@@ -68,8 +68,8 @@ Although the app's not doing much for now, you can check some basic tools that m
 - App runs at [port 8000](localhost:8000)
 - API documentation is available at [/docs](localhost:8000/docs)
 - Cloudbeaver is available at [port 8080](localhost:8080)
-  - For now, the DB connection has to be set up manually (only for the first time). Use SID `FREE`, port 1521 and 
-    default credentials.
+  - For now, the DB connection has to be set up manually (only for the first time). Login with default 
+    Cloudbeaver credentials and use SID `FREE`, port 1521 with default DB default credentials.
 - Celery worker is running by default. Check [/celery](localhost:8000/celery) to schedule a simple 3-second task.
   - To see available workers, current tasks and the message queue, check Flower at [port 5555](localhost:5555)
 - To check if DB connection is working, visit [/db](localhost:8000/db). The response should contain some scary 
