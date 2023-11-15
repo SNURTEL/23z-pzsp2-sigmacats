@@ -93,4 +93,5 @@ Non-technical project documentation is available on [project Google Drive](https
 ### Contributing
 - Project development is managed in a GitHub project [issue board](https://github.com/users/SNURTEL/projects/1/views/1)
 - For code structure and task workflow description check [CONTRIBUTING.md](CONTRIBUTING.md)
+- [Backend README.md](backend/README.md)
 
