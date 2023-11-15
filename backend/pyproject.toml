@@ -15,6 +15,7 @@ oracledb = "^1.4.2"
 celery = "^5.3.5"
 redis = "^5.0.1"
 flower = "^2.0.1"
+tenacity = "^8.2.3"
 
 [tool.poetry.group.test]
 optional = true
