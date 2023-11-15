@@ -1,6 +1,6 @@
 from typing import Optional
 
-from sqlmodel import Field, SQLModel, String
+from sqlmodel import Field, SQLModel
 
 
 class Dummy(SQLModel, table=True):

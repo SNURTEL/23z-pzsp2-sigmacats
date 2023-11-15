@@ -32,4 +32,3 @@ def create_db_engine_admin() -> Engine:
         port=int(os.environ.get("ORACLE_PORT", default="1521")),
     )
     return create_engine(db_url, echo=True)
-

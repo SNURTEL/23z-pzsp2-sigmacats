@@ -2,15 +2,14 @@ import logging
 import os
 
 from sqlmodel import SQLModel
-from sqlalchemy import String
-from sqlalchemy.sql import text, bindparam
+from sqlalchemy.sql import text
 from tenacity import after_log, before_log, retry, stop_after_attempt, wait_fixed
 
 from app.db.session import engine, engine_admin
 from app.util.log import get_logger
 
 # models HAVE to be imported beforehand for SQLModel.metadata.create_all to work
-from app.models import dummy
+from app.models import dummy  # noqa: F401
 
 
 logger = get_logger()
@@ -38,7 +37,7 @@ def init() -> None:
         raise e
 
 
-def create_users():
+def create_users() -> None:
     with engine_admin.connect() as connection:
         with connection.begin():
             connection.execute(
@@ -46,8 +45,14 @@ def create_users():
                 alter session set \"_ORACLE_SCRIPT\"=true
                 """
             )
+            connection.execute(
+                """
+                CREATE TABLESPACE IF NOT EXISTS data_ts DATAFILE 'data_ts.dbf' SIZE 512m
+                """
+            )
             sql = text(
-                f"CREATE USER IF NOT EXISTS {oracle_user_password} IDENTIFIED BY {oracle_user_password}"
+                f"CREATE USER IF NOT EXISTS {oracle_user_password} IDENTIFIED BY {oracle_user_password} \
+                DEFAULT TABLESPACE data_ts QUOTA UNLIMITED ON data_ts"
             )
             connection.execute(sql)
             sql = text(
@@ -60,7 +65,7 @@ def create_users():
             connection.execute(sql)
 
 
-def create_tables():
+def create_tables() -> None:
     # TODO this should be done with alembic
     SQLModel.metadata.create_all(engine)
 
