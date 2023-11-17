@@ -31,7 +31,7 @@ jobs:
         sleep 30
     - name: Check for pending migrations
       run: |
-        alembic check
+        docker exec fastapi-backend bash -c "alembic check"
     - name: Run pytest
       run: |
         docker exec fastapi-backend "pytest"
