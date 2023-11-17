@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
       args:
         BUILD_ENV: ${BUILD_ENV:-development}
-    command: /code/start-backend.sh
+    command: ./start-backend.sh
     env_file:
       - .env
     ports:
@@ -57,7 +57,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    command: /code/start-worker.sh
+    command: ./start-worker.sh
     env_file:
       - .env
     depends_on:
@@ -70,7 +70,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    command: /code/start-beat.sh
+    command: ./start-beat.sh
     env_file:
       - .env
     depends_on:
@@ -83,7 +83,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    command: /code/start-flower.sh
+    command: ./start-flower.sh
     env_file:
       - .env
     ports:

@@ -1,7 +1,6 @@
 import logging
 import os
 
-from sqlmodel import SQLModel
 from sqlalchemy.sql import text
 from tenacity import after_log, before_log, retry, stop_after_attempt, wait_fixed
 
@@ -9,7 +8,7 @@ from app.db.session import engine, engine_admin
 from app.util.log import get_logger
 
 # models HAVE to be imported beforehand for SQLModel.metadata.create_all to work
-from app.models import dummy  # noqa: F401
+from app.models import *  # noqa: F401
 
 
 logger = get_logger()
@@ -66,8 +65,8 @@ def create_users() -> None:
 
 
 def create_tables() -> None:
-    # TODO this should be done with alembic
-    SQLModel.metadata.create_all(engine)
+    # moved do Alembic
+    pass
 
 
 def main() -> None:
