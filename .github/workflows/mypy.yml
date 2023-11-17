@@ -25,6 +25,6 @@ jobs:
         poetry install --no-interaction --no-ansi
     - name: Run mypy analysis
       run: |
-        cd backend/app
+        cd backend/app/app
         poetry shell
         mypy .

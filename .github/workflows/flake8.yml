@@ -25,6 +25,6 @@ jobs:
         poetry install --no-interaction --no-ansi
     - name: Run flake8 analysis
       run: |
-        cd backend/app
+        cd backend/app/app
         poetry shell
         flake8

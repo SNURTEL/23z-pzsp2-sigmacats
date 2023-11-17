@@ -24,7 +24,7 @@ if config.config_file_name is not None:
 # target_metadata = mymodel.Base.metadata
 
 # from app.models.dummy import Dummy
-from app.models import *
+from app.models import *  # noqa: F401,F403,E402
 
 target_metadata = SQLModel.metadata
 

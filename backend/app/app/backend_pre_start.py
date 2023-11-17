@@ -4,11 +4,11 @@ import os
 from sqlalchemy.sql import text
 from tenacity import after_log, before_log, retry, stop_after_attempt, wait_fixed
 
-from app.db.session import engine, engine_admin
+from app.db.session import engine_admin
 from app.util.log import get_logger
 
 # models HAVE to be imported beforehand for SQLModel.metadata.create_all to work
-from app.models import *  # noqa: F401
+from app.models import *  # noqa: F401,F403
 
 
 logger = get_logger()
