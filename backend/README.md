@@ -38,7 +38,7 @@ chmod +x start.sh
 export $(grep -v '^#' ../.env | xargs) && ./start.sh
 ```
 
-### Run `flake8`, `mypy` and `pytest`
+#### Run `flake8`, `mypy` and `pytest`
 These need to pass for you PR to be accepted
 ```shell
 cd app
@@ -51,3 +51,19 @@ docker compose up --build --detach
 # wait for containers to spin up
 docker exec fastapi-backend "pytest"
 ```
+#### Create migrations
+Check if a migration can be generated:
+```shell
+alembic check
+# or, if running in docker container:
+docker exec fastapi-backend bash -c "alembic check"
+```
+If any model was changed, migration will be needed (CI will also fail if there are pending migrations). Generate a 
+new migration:
+```shell
+python -m alembic revision --autogenerate -m "<MIGRATION_NAME>"
+# docker alternative:
+docker exec fastapi-backend bash -c "python3 -m alembic revision --autogenerate -m \"testaaa\""
+docker cp fastapi-backend:$(docker exec fastapi-backend bash -c "ls -rt /app/migrations/versions/*.py | tail -1") migrations/versions/
+```
+Migrations are applied automatically on backend startup.
