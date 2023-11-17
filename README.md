@@ -81,7 +81,7 @@ Default config is stored in `.env.sample`. Default credentials included:
 | Type            | Username | Password |
 |-----------------|----------|----------|
 | Oracle DB admin | `system`  | `oracle`  |
-| Oracle user (currently unavailable) | `user1` | `user1` |
+| Oracle user  | `user1` | `user1` |
 | Cloudbeaver admin | `rootbeaver` | `cloudbeaver` |
 | Cloudbeaver user (currently unavailable) | `user1` | `user1` |
 
@@ -94,4 +94,3 @@ Non-technical project documentation is available on [project Google Drive](https
 - Project development is managed in a GitHub project [issue board](https://github.com/users/SNURTEL/projects/1/views/1)
 - For code structure and task workflow description check [CONTRIBUTING.md](CONTRIBUTING.md)
 - [Backend README.md](backend/README.md)
-

@@ -2,7 +2,7 @@ name: pytest
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, synchronize]
 
 jobs:
   pytest:
@@ -29,6 +29,9 @@ jobs:
     - name: Wait for startup   # todo not too elegant
       run: |
         sleep 30
+    - name: Check for pending migrations
+      run: |
+        docker exec fastapi-backend bash -c "alembic check"
     - name: Run pytest
       run: |
         docker exec fastapi-backend "pytest"

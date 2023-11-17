@@ -2,7 +2,7 @@ name: mypy
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, synchronize]
 
 jobs:
   analyze:
@@ -20,11 +20,11 @@ jobs:
         pip install poetry
     - name: Install dependencies
       run: |
-        cd backend
+        cd backend/app
         poetry config virtualenvs.create false
-        poetry install --no-interaction --no-ansi
+        poetry install --no-interaction --no-ansi --with test
     - name: Run mypy analysis
       run: |
-        cd backend/app
+        cd backend/app/app
         poetry shell
         mypy .
