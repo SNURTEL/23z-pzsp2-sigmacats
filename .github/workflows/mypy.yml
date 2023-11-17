@@ -22,7 +22,7 @@ jobs:
       run: |
         cd backend/app
         poetry config virtualenvs.create false
-        poetry install --no-interaction --no-ansi
+        poetry install --no-interaction --no-ansi --with test
     - name: Run mypy analysis
       run: |
         cd backend/app/app
