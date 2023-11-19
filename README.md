@@ -5,7 +5,10 @@
 ## About the project 
 Put some fancy description here.
 
-This is the main project repository. If you are looking for the mobile app, check [here](https://cat-bounce.com/).
+This is the main project repository. 
+- For backend, visit [this repo](https://github.com/SNURTEL/sigmacats-backend)
+- Web Flutter app is available [here](https://github.com/SNURTEL/sigmacats-web)
+- If you are looking for the mobile app, check [here](https://cat-bounce.com/).
 
 #### SIGMACATS team:
 - Jakub Jóźwiak
@@ -37,7 +40,7 @@ Get the project up & running with Docker.
 chmod +x setup.sh
 ./setup.sh
 ```
-to copy the default envfile and login to Oracle Container Image Repository.
+to copy the default envfile, login to Oracle Container Image Repository, and update git submodules.
 
 ### Build
 ```shell
