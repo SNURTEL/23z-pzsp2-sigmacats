@@ -2,3 +2,7 @@
 	path = backend
 	url = https://github.com/SNURTEL/sigmacats-backend.git
 	branch = main
+[submodule "web"]
+	path = web
+	url = https://github.com/SNURTEL/sigmacats-web.git
+	branch = main
