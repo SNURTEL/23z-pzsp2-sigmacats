@@ -5,3 +5,5 @@ set -o xtrace
 cp .env.sample .env
 
 docker login container-registry.oracle.com
+
+git submodule update --init --remote
