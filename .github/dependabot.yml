@@ -5,3 +5,12 @@ updates:
     schedule:
         interval: "daily"
     directory: /
+    registries:
+      - github
+      -
+registries:
+  github:
+    type: git
+    url: https://github.com
+    username: "tomek.owienko1@gmail.com"
+    password: ${{ secrets.GA_SUBMODULE_UPDATE_TOKEN }}
