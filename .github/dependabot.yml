@@ -6,7 +6,7 @@ updates:
         interval: "daily"
     directory: /
     registries:
-      - github
+      - github-pzsp2
 
 registries:
   github-pzsp2:
