@@ -1,0 +1,4 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/SNURTEL/sigmacats-backend.git
+	branch = main
