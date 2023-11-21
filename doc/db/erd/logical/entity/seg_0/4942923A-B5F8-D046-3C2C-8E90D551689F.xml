@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4942923A-B5F8-D046-3C2C-8E90D551689F" name="Race">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 17:14:12 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="temperature" id="7468FCA7-55BA-26C6-8B07-D6882C1F159B">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:25:10 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_time" id="A3660B1B-EEF5-CAD9-0C64-22002271F229">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:25:23 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_time" id="57FAAC2C-16A1-8DE3-5D0B-FFCF8E793311">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:25:36 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="checkpoints_gpx_filename" id="8B554D30-3FD9-3DB0-FDDC-26AC91BE5441">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:37:05 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="97722285-7858-A19C-E218-B277E68B3090">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 23:03:49 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="requirements" id="1B16E694-08B6-391B-69B3-A0016312E00E">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:25:59 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rain" id="C08A74FD-CCA3-AE73-CFE3-CBAE6A6893DB">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:28:52 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wind" id="A243E8AC-3624-33D3-4C30-ABC4DFC2192B">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:29:12 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91D47DC3-517B-D2DC-AE00-0809FE6DD61C" name="Race PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:25:21 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7468FCA7-55BA-26C6-8B07-D6882C1F159B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
