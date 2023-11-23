@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="EC2096F1-CA59-B203-2804-1321742E8BDC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Race participation Coordinator FK" directorySegmentName="seg_0" id="EC2096F1-CA59-B203-2804-1321742E8BDC">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 23:11:30 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>

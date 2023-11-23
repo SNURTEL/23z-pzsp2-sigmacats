@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F811B6FF-2BB7-B380-CAB2-F8D4AAB3B936" name="Account">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>A0E52F30-4CC6-E659-1A0A-A50BA4969B97</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4D8121FD-0B26-195D-F91E-47AE4B7D9CA7">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>D47CDB75-3C6D-98D3-17D5-D78C61CAF849</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="24C0D228-79CF-A1DE-E31E-F540D24D647D">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>65FFF696-D5BB-6E27-C79E-7230235F3E03</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="A4A2EEB3-4B42-5B06-91BD-FF9D4811A407">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>36C96EDD-AFFE-5279-D2EC-7A628E87D589</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="474DD5D4-1EAE-BA8B-2463-F497538798DC">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>8FD515B3-C330-B0EC-9C3D-04B990EC1CEC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="0D00BFD2-F1C0-83E2-58D6-EF94C735F9A0">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>B7517E0E-F2E8-205D-658B-DC41B82A7026</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="AF63835E-C23A-C2C2-7925-6197829DFB9E">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>D8383649-3289-8060-1C18-033D12FC8037</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D301180E-A8B8-E77C-3E73-5D48E412D3CB" name="Account_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>6F0FA0D9-DB8F-ADE6-019C-44F32C99630C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D8121FD-0B26-195D-F91E-47AE4B7D9CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

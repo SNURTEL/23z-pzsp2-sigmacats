@@ -1,12 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rider-bike" directorySegmentName="seg_0" id="092642C1-0EEC-9B8A-72D2-3BF834160A97">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Bike Rider FK" directorySegmentName="seg_0" id="092642C1-0EEC-9B8A-72D2-3BF834160A97">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 17:11:26 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
-<identifying>true</identifying>
+<sourcePk>6F0FA0D9-DB8F-ADE6-019C-44F32C99630C</sourcePk>
+<identifying>false</identifying>
 <nameOnSource>owns</nameOnSource>
 <nameOnTarget>owned by</nameOnTarget>
 <optionalSource>true</optionalSource>

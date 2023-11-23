@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0775DB50-CD3D-4678-4D31-59521E27EBC2" name="Race_bonus">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>FCE792F0-3C4F-823C-19B0-072DFDEBAE8A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D11FC5C2-5A4F-F5F2-4C4F-045672460C60">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>7D3E8ACE-11BC-43D5-5A4D-321E33E42C6A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8AC91A13-1AA0-A4C1-5A12-7B3D2735CDA5">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 16:18:04 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rule" id="AA368664-1C31-2D47-3565-904C4D37F395">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>78CECB12-905A-89F8-1CA7-4055F8C99002</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="points_multiplier" id="53366A4F-CE6B-50A0-ABB7-58A433DF3A72">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>0B4DF2E3-2586-DDF9-1097-9E87F184FCDA</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A2877EC-8340-934B-D0CB-D6D7BEA6C141" name="Race_bonus_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>5DAF2552-D3F0-FE15-8609-7199F21A3F4C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D11FC5C2-5A4F-F5F2-4C4F-045672460C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

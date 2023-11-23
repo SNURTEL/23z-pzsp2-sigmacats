@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="928BE958-9499-C1A5-8392-6E325A91495F" containerWithKeyObject="5CE9249F-8623-6955-0E3C-985506B52155" localFKIndex="5B6A8701-F54D-3530-0FB0-0A4EA35248BB" name="Race_participation_Race_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>05BFBCD7-0B6B-5886-B304-677B07235FE4</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>Race</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5BEAE2F-8C37-4514-84FA-98F6B653C1D7</referredTableID>
+<keyObject>CFCF38F8-353C-9BA8-BA07-08DA02580489</keyObject>
+<referredKeyID>CFCF38F8-353C-9BA8-BA07-08DA02580489</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>temperature</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

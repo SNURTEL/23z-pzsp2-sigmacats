@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3C90AE8-109F-7087-8AFD-BB897C650AB1" containerWithKeyObject="6C7CA2DF-6209-9133-52CD-9941E1B4A96B" localFKIndex="997F7FE0-35CC-1353-D330-6E2EE1B49307" name="classification_points_Rider_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 17:18:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>Rider</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>228E1830-62A3-FA88-2130-0BAAE45DC672</referredTableID>
+<keyObject>7C671022-C6DD-2D0C-D387-CA42907F3F52</keyObject>
+<referredKeyID>7C671022-C6DD-2D0C-D387-CA42907F3F52</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

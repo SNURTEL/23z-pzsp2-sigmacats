@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9949AF11-2104-0E48-8034-D815A94784F0" containerWithKeyObject="2ED58DF2-B541-968A-AC33-EE7B41E76860" localFKIndex="E41B7BC9-1221-7E98-FCE2-4AE1E4AE407C" name="Relation_21_Classification_access_limiters_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>7409ABFC-AE2B-77E4-8098-467CAA2D2860</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>Classification_access_limiters</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>559AF796-797D-A012-B632-12DB52EA068C</referredTableID>
+<keyObject>B452AA6D-79AA-3E9B-4422-2CAE62C41BBA</keyObject>
+<referredKeyID>B452AA6D-79AA-3E9B-4422-2CAE62C41BBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

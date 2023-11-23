@@ -25,7 +25,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="start_timestamp" id="6F985708-C964-5540-9157-BD7B1BD0E4FF">
+<Attribute name="start timestamp" id="6F985708-C964-5540-9157-BD7B1BD0E4FF">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:11:30 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
@@ -35,7 +35,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="end_timestamp" id="D0E1FF6A-9015-182D-A150-719AD6C4A3F0">
+<Attribute name="end timestamp" id="D0E1FF6A-9015-182D-A150-719AD6C4A3F0">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:11:33 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>

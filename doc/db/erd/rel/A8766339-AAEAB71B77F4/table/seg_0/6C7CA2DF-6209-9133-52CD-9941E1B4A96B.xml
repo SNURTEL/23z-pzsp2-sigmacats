@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C7CA2DF-6209-9133-52CD-9941E1B4A96B" name="classification_points">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:39:36 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="classification_id" id="E508F5C5-D104-B84D-5E4F-693E160BF208">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:40:51 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A92C429A-10D8-EF68-0EE4-23C8BD7D8809" referredColumn="7A0339BD-11FF-8DFF-FA88-AB348121F4CD"/>
+</associations>
+</Column>
+<Column name="rider_id" id="DCFB0510-E8C9-BD5C-8468-EE86C93994FE">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:40:51 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3C90AE8-109F-7087-8AFD-BB897C650AB1" referredColumn="C3C4AE52-4940-7064-60D2-B9EE0C47F6DF"/>
+</associations>
+</Column>
+<Column name="score" id="95552192-7BA9-AEE9-1358-6D84E9F2EB77">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:40:51 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="689E7C21-A461-6F98-31E3-2AE89D682F03" name="classification_ranking_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:40:51 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E508F5C5-D104-B84D-5E4F-693E160BF208"/>
+<colUsage columnID="DCFB0510-E8C9-BD5C-8468-EE86C93994FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7C62387-8F30-5931-D3FA-66A8724E5C50" name="classification_ranking_Classification_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:51:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E508F5C5-D104-B84D-5E4F-693E160BF208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="997F7FE0-35CC-1353-D330-6E2EE1B49307" name="classification_points_Rider_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 17:18:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCFB0510-E8C9-BD5C-8468-EE86C93994FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

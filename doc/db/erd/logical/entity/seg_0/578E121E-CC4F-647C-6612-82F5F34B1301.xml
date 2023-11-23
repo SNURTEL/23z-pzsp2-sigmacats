@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id1" id="88C1E6E1-ABCC-4B4C-E3FC-30808253CCE6">
+<Attribute name="Rider id" id="88C1E6E1-ABCC-4B4C-E3FC-30808253CCE6">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:14:55 UTC</createdTime>
 <generatorID>3804F729-8741-ACEE-A2ED-08EA25EA87F8</generatorID>
@@ -27,7 +27,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="temperature" id="982BAD75-45FF-80B4-8277-0153687E75AA">
+<Attribute name="Race temperature" id="982BAD75-45FF-80B4-8277-0153687E75AA">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:25:24 UTC</createdTime>
 <generatorID>05BFBCD7-0B6B-5886-B304-677B07235FE4</generatorID>
@@ -39,7 +39,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="41562CED-D786-D801-9B14-D9A02B5807BE">
+<Attribute name="Bike id" id="41562CED-D786-D801-9B14-D9A02B5807BE">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:07:46 UTC</createdTime>
 <generatorID>CCFDECB3-808A-0FB9-D91D-511FFED1DA94</generatorID>
@@ -51,7 +51,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_1" id="671FD395-C1DD-969A-6B15-0D789516476B">
+<Attribute name="id 1" id="671FD395-C1DD-969A-6B15-0D789516476B">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:35:22 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
@@ -71,7 +71,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ride_start_timestamp" id="33DED13E-B0AB-BF20-5BC3-0FDA2A802E39">
+<Attribute name="ride start timestamp" id="33DED13E-B0AB-BF20-5BC3-0FDA2A802E39">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:34:26 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
@@ -81,7 +81,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ride_end_timestamp" id="A85C2F5E-7522-B2E2-35A5-59CF78F70BB1">
+<Attribute name="ride end timestamp" id="A85C2F5E-7522-B2E2-35A5-59CF78F70BB1">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:35:51 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
@@ -91,7 +91,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ride_gpx_path" id="D6808B23-BE95-9C65-2D59-53300D680F1F">
+<Attribute name="ride gpx path" id="D6808B23-BE95-9C65-2D59-53300D680F1F">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:36:26 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
@@ -101,7 +101,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="3A29CFB1-7AF1-2A70-732C-337089407964">
+<Attribute name="Generated race ranking id" id="3A29CFB1-7AF1-2A70-732C-337089407964">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:37:51 UTC</createdTime>
 <generatorID>A78CB873-CAF2-BB41-64DE-323E066B6001</generatorID>
@@ -114,7 +114,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id3" id="402288DC-CA36-E730-E2A2-387F00B9BBB8">
+<Attribute name="Race ranking Generated race ranking id" id="402288DC-CA36-E730-E2A2-387F00B9BBB8">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:37:55 UTC</createdTime>
 <generatorID>B1A9FBA5-43C7-5E4B-13E6-A28B45C14419</generatorID>
@@ -126,7 +126,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id4" id="63AAA4FE-2C26-3806-4941-66C99DD7878D">
+<Attribute name="Coordinator id" id="63AAA4FE-2C26-3806-4941-66C99DD7878D">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 23:11:30 UTC</createdTime>
 <generatorID>EC2096F1-CA59-B203-2804-1321742E8BDC</generatorID>
@@ -140,7 +140,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="021AA853-703B-9034-8FB0-0DA180997902" name="Race participation PKv1">
+<identifier id="021AA853-703B-9034-8FB0-0DA180997902" name="Race_participation_PK">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:35:25 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>

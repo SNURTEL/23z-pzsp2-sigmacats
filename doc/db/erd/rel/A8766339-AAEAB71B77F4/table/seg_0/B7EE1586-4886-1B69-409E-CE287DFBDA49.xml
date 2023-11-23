@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7EE1586-4886-1B69-409E-CE287DFBDA49" name="Bike">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>914C437F-4ACD-5249-ECC1-B03FC0DCDE86</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AF9281B8-91D2-BC94-2EEA-40AEA13B3D47">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>A8B7BAAA-4AF3-1D31-5B78-15291212C3D9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A05BA459-7086-F8AD-33AC-3E083359F170">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>3D94AB9E-E5AC-E699-B34D-00E2B4A5A07A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="9FBF1275-0B5A-AD36-82E1-BF0923E1D61C">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>D9392EF1-6664-085E-FF70-AFA579056B0A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brand" id="6C0BDBDA-77BD-FAB4-FDC8-93068F730D18">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>BEBFC2FD-2E8E-3144-CEDF-37F88FCE14B1</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="50B2C9C9-CEF1-2050-0021-B4D5E6CA4CC0">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>194E73AF-280A-44CC-2D55-C56CAAA4601F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rider_id" id="C8CFC7A5-6359-009B-D3DE-8B0F11A9F408">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>D693F614-8F68-EEB0-97B7-D54B0EC3FD29</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3287F62-69BD-0336-BC8B-3E3BA4C9E973" referredColumn="C3C4AE52-4940-7064-60D2-B9EE0C47F6DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DC0AEA3-D528-8B91-F92D-B0DCDF157EE6" name="Bike_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>CC728FC8-9A5C-9D24-67D3-A47C1804BEE2</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9281B8-91D2-BC94-2EEA-40AEA13B3D47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E13188A-7EC2-C383-8DD7-9C38DDFD0086" name="Bike_Rider_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>092642C1-0EEC-9B8A-72D2-3BF834160A97</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8CFC7A5-6359-009B-D3DE-8B0F11A9F408"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

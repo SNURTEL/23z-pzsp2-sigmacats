@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="212B1FD8-DA3E-A520-C6D3-210D4095BBEF" name="race_bonus_to_race">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>relation_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Race_id" id="EC767467-3422-A001-BD68-07E2D98860B1">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBF577D2-F5D3-0D9D-73E8-C5495923E140" referredColumn="1E6805D7-16ED-8BD8-A4B3-30FFFD8B25CC"/>
+</associations>
+</Column>
+<Column name="Race_bonus_id" id="07FDE954-3981-8BF1-7D44-58E5FDD8612B">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DDF1F59-A118-F5C3-8A4A-E69194E75429" referredColumn="D11FC5C2-5A4F-F5F2-4C4F-045672460C60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1731A67D-7D99-8BFA-D054-C6E3BA4C3656" name="Relation_6_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC767467-3422-A001-BD68-07E2D98860B1"/>
+<colUsage columnID="07FDE954-3981-8BF1-7D44-58E5FDD8612B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F98A224B-6DF9-A641-E12E-2EFA531BF40F" name="Relation_6_Race_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>1F5AE371-F3E4-B2DA-F279-4A62DF8834D8</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC767467-3422-A001-BD68-07E2D98860B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19B6E312-C542-85D1-29BC-3D99D3A0750B" name="Relation_6_Race_bonus_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>1F5AE371-F3E4-B2DA-F279-4A62DF8834D8</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07FDE954-3981-8BF1-7D44-58E5FDD8612B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

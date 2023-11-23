@@ -67,7 +67,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="birth_date" id="D8383649-3289-8060-1C18-033D12FC8037">
+<Attribute name="birth date" id="D8383649-3289-8060-1C18-033D12FC8037">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 18:10:39 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>

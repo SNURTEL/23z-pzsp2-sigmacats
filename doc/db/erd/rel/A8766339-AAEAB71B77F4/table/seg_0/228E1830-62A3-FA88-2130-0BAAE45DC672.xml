@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="228E1830-62A3-FA88-2130-0BAAE45DC672" name="Rider">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>5740AFF4-38D5-F86C-C46B-B614E57EC9EC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C3C4AE52-4940-7064-60D2-B9EE0C47F6DF">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>D47CDB75-3C6D-98D3-17D5-D78C61CAF849</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1481DBAC-E2F5-A911-1AF3-9BE6C3D7A090" referredColumn="4D8121FD-0B26-195D-F91E-47AE4B7D9CA7"/>
+</associations>
+</Column>
+<Column name="name" id="F31A12DB-8CFD-0B36-E0AF-5C8F07F1A077">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>65FFF696-D5BB-6E27-C79E-7230235F3E03</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="945567DF-31EA-55AE-CA02-7CAC8CDCAE6A">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>36C96EDD-AFFE-5279-D2EC-7A628E87D589</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="49D76758-1FEA-A949-1541-B38025964BE1">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>8FD515B3-C330-B0EC-9C3D-04B990EC1CEC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="90113621-2515-5739-1623-BB7B1F76321D">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>B7517E0E-F2E8-205D-658B-DC41B82A7026</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="52FD7FAA-88F3-90F5-F4A9-832C11046335">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>D8383649-3289-8060-1C18-033D12FC8037</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C671022-C6DD-2D0C-D387-CA42907F3F52" name="Rider_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>6F0FA0D9-DB8F-ADE6-019C-44F32C99630C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3C4AE52-4940-7064-60D2-B9EE0C47F6DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D658D7F1-A8AC-7722-1284-393BE3E7EB63" name="Rider_Account_FK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-22 13:29:56 UTC</createdTime>
+<generatorID>8ADFBEB2-202C-057A-CE2A-B3FEFBF1D97B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3C4AE52-4940-7064-60D2-B9EE0C47F6DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
