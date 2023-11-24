@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26428BE5-4130-5DC0-9C94-A5E4D9CC9933" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACEBONUS">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACEBONUS</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>06482374-8F41-EE86-A0F8-00C4EE890EA6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6B700456-7AC4-9AF7-A31A-3DB2AD8A0E6A">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>RACEBONUS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>C39DB43E-835B-2504-2E5A-CF0440AFB6DF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;RACEBONUS_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FD68651D-D568-DDB6-B6DC-3DDE6BF9236F">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>RACEBONUS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>94DAE5B4-5FF8-854A-C8B5-126594ABB609</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RULE" id="FF293618-1637-1578-428E-D5051E69ABDE">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>RACEBONUS</sourceObjSchema>
+<sourceObjName>RULE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>9D879817-E008-B00D-5C91-89941EFE14A7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POINTS_MULTIPLIER" id="2F88A0ED-F02F-15F3-112A-3053B43177A9">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>RACEBONUS</sourceObjSchema>
+<sourceObjName>POINTS_MULTIPLIER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>5DDA301D-072D-1476-9CB6-BCD1C35F41AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="481A76C0-7956-8918-3B67-79F8A541A546" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACEBONUS_PK">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008364</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>DC688801-BCC4-0E1E-D9B0-26FA680C772D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B700456-7AC4-9AF7-A31A-3DB2AD8A0E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42975B53-D0F4-8941-FAE4-52CE182A106C" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACEBONUS_NAME_UN">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008365</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>7F71F217-8F31-4EEE-2E98-002879C6A2FF</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD68651D-D568-DDB6-B6DC-3DDE6BF9236F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

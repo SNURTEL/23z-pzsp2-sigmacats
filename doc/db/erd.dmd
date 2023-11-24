@@ -5,4 +5,12 @@
 <ownerDesignName>erd</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>05DE5872-631F-17E9-CF1D-926E2A011000</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F21EA603-2ADA-B428-35C9-4DB8C3E9350B">
+<designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="32179467-34E4-A814-961D-D8E0E1653D8C">
+<designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

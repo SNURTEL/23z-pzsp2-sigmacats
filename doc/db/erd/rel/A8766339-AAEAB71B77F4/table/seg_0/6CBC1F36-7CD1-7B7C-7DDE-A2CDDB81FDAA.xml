@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CBC1F36-7CD1-7B7C-7DDE-A2CDDB81FDAA" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACEBONUSRACELINK">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACEBONUSRACELINK</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>FA81DEA9-9024-277D-4B16-D114BA265B9C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RACE_BONUS_ID" id="69D896FA-D100-A727-B11F-428FECA184CF">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>RACEBONUSRACELINK</sourceObjSchema>
+<sourceObjName>RACE_BONUS_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>8A62A548-7209-F883-C651-5BE17C78CD10</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F70F44-D6C6-15CD-8BCF-12CCA9449680" referredColumn="6B700456-7AC4-9AF7-A31A-3DB2AD8A0E6A"/>
+</associations>
+</Column>
+<Column name="RACE_ID" id="DFD231DD-D0E3-700B-451F-D080737A77CD">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>RACEBONUSRACELINK</sourceObjSchema>
+<sourceObjName>RACE_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>97E46E11-6A1A-6108-BBE0-CADB664EA6F7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D8D83CB-8809-D4DA-0318-954DC5BFBFF7" referredColumn="89E274AA-EE61-11DB-CAAD-CBF067A81101"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F2FC2AC-FFAF-C2C7-9148-FF5656D99CE7" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACEBONUSRACELINK_PK">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008418</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>3D472AFC-29AD-E069-2B6C-49845B980AA1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D896FA-D100-A727-B11F-428FECA184CF"/>
+<colUsage columnID="DFD231DD-D0E3-700B-451F-D080737A77CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CF68593-1DAC-22F5-2E7A-08BB68A806D7" name="SYS_C008419">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D896FA-D100-A727-B11F-428FECA184CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DD0DAC7-62C5-32FE-64FF-DDF12E0392EF" name="SYS_C008420">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD231DD-D0E3-700B-451F-D080737A77CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

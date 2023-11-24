@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ALEMBIC_VERSION" directorySegmentName="seg_0" id="3CA9A970-2E9D-65C6-9C6C-C7675FE34ACF">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6BF0817A-F749-1D22-99DE-B34FB2E8ABBA</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VERSION_NUM" id="C7E85C77-477C-5BDF-CE2F-BFC40B98AD47">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ALEMBIC_VERSION_PKC" id="667BFDC3-DDBA-20B1-5A59-6388EB142BF3">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<segment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ALEMBIC_VERSION_PKC" id="AB49C6C7-C617-2FCC-2095-CB4F08418EF5">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<segment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<existingIndex>667BFDC3-DDBA-20B1-5A59-6388EB142BF3</existingIndex>
+<indexSegment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
