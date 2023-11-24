@@ -8,7 +8,7 @@ Put some fancy description here.
 This is the main project repository. 
 - For backend, visit [this repo](https://github.com/SNURTEL/sigmacats-backend)
 - Web Flutter app is available [here](https://github.com/SNURTEL/sigmacats-web)
-- If you are looking for the mobile app, check [here](https://cat-bounce.com/).
+- If you are looking for the mobile app, check [here](https://github.com/SNURTEL/sigmacats-mobile).
 
 #### SIGMACATS team:
 - Jakub Jóźwiak
