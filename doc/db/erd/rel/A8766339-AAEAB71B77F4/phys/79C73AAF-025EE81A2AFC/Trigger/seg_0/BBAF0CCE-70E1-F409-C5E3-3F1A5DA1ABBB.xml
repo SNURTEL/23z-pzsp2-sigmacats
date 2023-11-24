@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="RACE_PARTICIPATION_BIKE_OWNER_TRIGGER" directorySegmentName="seg_0" id="BBAF0CCE-70E1-F409-C5E3-3F1A5DA1ABBB">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACE_PARTICIPATION_BIKE_OWNER_TRIGGER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:04 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE   r_id rider.id%type; BEGIN     SELECT RIDER_ID into r_id from BIKE where ID = :NEW.bike_id;     IF :NEW.rider_id != r_id THEN         raise_application_error(-20001, 'Rider id ' || TO_CHAR(:NEW.rider_id) || ' must match bike owner id');     end if; end;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>C3A69DBF-1EC3-22CC-65EA-B99246AEDE47</owner>
+<table>0BD151C2-35C8-C33C-C20E-05002639CB90</table>
+</TriggerOraclev10g>

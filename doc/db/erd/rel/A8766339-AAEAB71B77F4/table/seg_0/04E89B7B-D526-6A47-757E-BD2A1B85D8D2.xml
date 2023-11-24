@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04E89B7B-D526-6A47-757E-BD2A1B85D8D2" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="COORDINATOR">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>COORDINATOR</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>C175F891-8AB7-014D-6FD6-6643D3826FDA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6BD94341-55E5-77B1-1536-1D4330333AD9">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>COORDINATOR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>F747B0CF-11C3-0CCB-3D74-0CD31C2E869C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B569483-DF42-0B5C-ADC1-6A9C332A34B1" referredColumn="F4FF59C1-74E4-3232-1C3F-A65CF4C29D76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83E27221-4DCC-07A8-D108-113E0EF5CDE9" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="COORDINATOR_PK">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008383</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>1ADF9340-8B6E-3CC7-3F47-A67FA513663D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD94341-55E5-77B1-1536-1D4330333AD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42E48206-A4AB-0E33-91EC-7BE5BBDE422C" name="SYS_C008384">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD94341-55E5-77B1-1536-1D4330333AD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

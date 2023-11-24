@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="578E121E-CC4F-647C-6612-82F5F34B1301" name="Race participation">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 17:30:28 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rider id" id="88C1E6E1-ABCC-4B4C-E3FC-30808253CCE6">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:14:55 UTC</createdTime>
+<generatorID>3804F729-8741-ACEE-A2ED-08EA25EA87F8</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<referedAttribute>D47CDB75-3C6D-98D3-17D5-D78C61CAF849</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Race temperature" id="982BAD75-45FF-80B4-8277-0153687E75AA">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:25:24 UTC</createdTime>
+<generatorID>05BFBCD7-0B6B-5886-B304-677B07235FE4</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<referedAttribute>7468FCA7-55BA-26C6-8B07-D6882C1F159B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bike id" id="41562CED-D786-D801-9B14-D9A02B5807BE">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:07:46 UTC</createdTime>
+<generatorID>CCFDECB3-808A-0FB9-D91D-511FFED1DA94</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<referedAttribute>A8B7BAAA-4AF3-1D31-5B78-15291212C3D9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id 1" id="671FD395-C1DD-969A-6B15-0D789516476B">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:35:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="DC3FD2E0-CF65-A86E-5F32-34201A0AA53D">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 23:04:12 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ride start timestamp" id="33DED13E-B0AB-BF20-5BC3-0FDA2A802E39">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:34:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ride end timestamp" id="A85C2F5E-7522-B2E2-35A5-59CF78F70BB1">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:35:51 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ride gpx path" id="D6808B23-BE95-9C65-2D59-53300D680F1F">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:36:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Generated race ranking id" id="3A29CFB1-7AF1-2A70-732C-337089407964">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:37:51 UTC</createdTime>
+<generatorID>A78CB873-CAF2-BB41-64DE-323E066B6001</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F4508002-D52C-FA47-F3F4-CC80F3712525</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Race ranking Generated race ranking id" id="402288DC-CA36-E730-E2A2-387F00B9BBB8">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:37:55 UTC</createdTime>
+<generatorID>B1A9FBA5-43C7-5E4B-13E6-A28B45C14419</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<referedAttribute>43F1F328-F32D-A555-556F-2F8AC75A6C60</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Coordinator id" id="63AAA4FE-2C26-3806-4941-66C99DD7878D">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 23:11:30 UTC</createdTime>
+<generatorID>EC2096F1-CA59-B203-2804-1321742E8BDC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<referedAttribute>D47CDB75-3C6D-98D3-17D5-D78C61CAF849</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="021AA853-703B-9034-8FB0-0DA180997902" name="Race_participation_PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 18:35:25 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88C1E6E1-ABCC-4B4C-E3FC-30808253CCE6</attributeRef>
+<attributeRef>671FD395-C1DD-969A-6B15-0D789516476B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

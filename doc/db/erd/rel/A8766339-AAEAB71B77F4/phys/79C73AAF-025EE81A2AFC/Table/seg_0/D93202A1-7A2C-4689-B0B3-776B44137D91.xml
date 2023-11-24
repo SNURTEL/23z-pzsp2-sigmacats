@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SEASON" directorySegmentName="seg_0" id="D93202A1-7A2C-4689-B0B3-776B44137D91">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9EB6B49A-2605-FA83-EA4B-11B111BD6D45</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="40A814C4-D969-CA81-1DE8-CF1BA0EF4993">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_TIMESTAMP" id="CA50E318-566B-63C3-50C7-E43588836C08">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_TIMESTAMP" id="D07D68EA-5154-9BAA-2DE0-D22015FF7131">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="D91B807E-CCBE-6CB7-FC4F-906C848DBC63">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<defaultValue>&quot;USER1&quot;.&quot;SEASON_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SEASON_PK" id="31607874-492C-CC8E-41F8-1C4AFACF72F8">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<segment>38141744-BB39-81C1-BA7E-9E25ADD2741C</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<indexSegment>38141744-BB39-81C1-BA7E-9E25ADD2741C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SEASON_TIMESTAMP_ORDER" id="67128850-AA05-ABCB-32CB-0A4CEC2AA54A">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SEASON_NAME_UN" id="A331BB03-BAA2-3309-4188-FE38975BB780">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<segment>38141744-BB39-81C1-BA7E-9E25ADD2741C</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<indexSegment>38141744-BB39-81C1-BA7E-9E25ADD2741C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

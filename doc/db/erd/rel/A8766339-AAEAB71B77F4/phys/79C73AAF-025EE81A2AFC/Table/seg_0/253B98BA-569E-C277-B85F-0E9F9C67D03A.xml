@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DUMMY" directorySegmentName="seg_0" id="253B98BA-569E-C277-B85F-0E9F9C67D03A">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6BF0817A-F749-1D22-99DE-B34FB2E8ABBA</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FOO" id="0741415A-FBB1-2CB8-C74C-1B5BB56CC772">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAR" id="0A3A337F-BF13-3215-317C-99F3255ED86E">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="51841E31-2915-8AB0-692A-79E40F3AAB39">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DUMMY_PK" id="EB12311D-D085-C4CA-BB72-173E14E90E1C">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<segment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<indexSegment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RIDER" directorySegmentName="seg_0" id="2EC4857F-6DA7-B39A-011C-58D50C869A43">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6BF0817A-F749-1D22-99DE-B34FB2E8ABBA</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="76B31E91-0314-67A5-FC6F-DF010332DDE2">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008403" id="C9545D41-E319-0DD2-B77E-5737D65797D9">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RIDER_PK" id="20B9C94E-7F61-9847-06CE-7C2CC8523F72">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<segment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</segment>
+<tableSpace>129D9184-A4FC-9E87-5721-DD6111A9E7B9</tableSpace>
+<indexSegment>F1ED55B2-983A-DA58-BEF0-9360AC50CC01</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

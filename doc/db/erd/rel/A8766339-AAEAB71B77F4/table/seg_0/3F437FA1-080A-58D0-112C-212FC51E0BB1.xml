@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F437FA1-080A-58D0-112C-212FC51E0BB1" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="ACCESSLIMITERCLASSIFICATIONLINK">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>ACCESSLIMITERCLASSIFICATIONLINK</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>BDC1E5C7-CA3E-B139-CFC9-116924FBBD7B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCESS_LIMITER_ID" id="EBA7F1CA-DAE0-CE49-A215-AE9AC9B87832">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>ACCESSLIMITERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>ACCESS_LIMITER_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>DD1EA82D-FFF0-302E-540F-5DD6332E2231</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AE833CD-D00E-6AC2-2378-7C648E83B1D4" referredColumn="B17D773D-94B9-C445-3192-8DF2230FD991"/>
+</associations>
+</Column>
+<Column name="CLASSIFICATION_ID" id="F1D01D70-13B9-2ADE-F011-8A40BC649473">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>ACCESSLIMITERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>CLASSIFICATION_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>0EC6FFB1-39FD-F7CA-260D-F46096E86847</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2CF045D-8707-A36B-0AC1-699BC64B6667" referredColumn="A1968BCD-E53F-F744-F784-3279F3C75B06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF4A8DF6-5D6D-DB82-E33E-FFB19BEDC537" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="ACCESSLIMITERCLASSIFICATIONLINK_PK">
+<sourceConnName>pzsp2</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008406</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>7274137C-8D87-C73B-4E29-E28C18D5B89B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBA7F1CA-DAE0-CE49-A215-AE9AC9B87832"/>
+<colUsage columnID="F1D01D70-13B9-2ADE-F011-8A40BC649473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F42D3A0D-1DCE-2E0C-90D2-E9BE29CF86AE" name="SYS_C008407">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBA7F1CA-DAE0-CE49-A215-AE9AC9B87832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06D143ED-0717-E9EB-6920-59868B1644BE" name="SYS_C008408">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-24 00:11:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1D01D70-13B9-2ADE-F011-8A40BC649473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
