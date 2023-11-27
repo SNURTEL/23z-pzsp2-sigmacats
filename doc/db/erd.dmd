@@ -12,5 +12,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="32179467-34E4-A814-961D-D8E0E1653D8C">
 <designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BC24BE74-660A-A7F7-C4BD-CC9F0E41F29F">
+<designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

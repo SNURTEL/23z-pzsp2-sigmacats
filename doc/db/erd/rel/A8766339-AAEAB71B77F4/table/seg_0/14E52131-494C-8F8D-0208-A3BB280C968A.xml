@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14E52131-494C-8F8D-0208-A3BB280C968A" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="COORDINATOR">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>COORDINATOR</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>33C7E411-0AA6-8E89-DEC1-0ABF37AFBF58</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8A639DDC-7334-3493-24B1-5521F35A789C">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>COORDINATOR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>3340E403-08E7-A13A-EC49-3B529236D791</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6938F39F-6E3A-395B-234B-AA0B564EF1EB" referredColumn="E245795B-938F-2517-C906-C044E93B8140"/>
+</associations>
+</Column>
+<Column name="PHONE_NUMBER" id="6A835C92-9020-0C98-F63A-11426DFE4089">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>COORDINATOR</sourceObjSchema>
+<sourceObjName>PHONE_NUMBER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>B821A5EE-F107-21F0-CE9E-9E9844A4B2E0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C09476E3-3197-291D-15E6-F74004804EC3" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="COORDINATOR_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008383</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>B5B4EA50-2F9C-6CAA-DE42-F4711F7AD058</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A639DDC-7334-3493-24B1-5521F35A789C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B252286-6139-D77D-8BD6-0DD4E8059A0A" name="SYS_C008384">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A639DDC-7334-3493-24B1-5521F35A789C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

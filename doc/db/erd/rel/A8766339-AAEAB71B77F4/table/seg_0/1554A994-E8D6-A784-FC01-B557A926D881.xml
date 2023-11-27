@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1554A994-E8D6-A784-FC01-B557A926D881" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="SEASON">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SEASON</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>09324248-FACF-6E74-E525-CCF32BC939B0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5357F3BA-FFD3-23DA-64F9-135AC0DC740A">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>SEASON</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>53401EA6-AAA1-9E84-C38B-44AA1E7D30CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;SEASON_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="83614995-2234-3351-7969-B2EA5AF8B383">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>SEASON</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>9939E7E7-D874-9802-5111-D5BD3BC7355E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_TIMESTAMP" id="5E9220DC-B466-2465-E808-0A7CF1494DEB">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>SEASON</sourceObjSchema>
+<sourceObjName>START_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>9B0F98A6-0AB4-2DC7-F8D8-B595649893CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_TIMESTAMP" id="980DB8A7-8484-0DE1-11DD-A0969899E892">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>SEASON</sourceObjSchema>
+<sourceObjName>END_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>DC4579DB-EC26-8A09-35F0-E9419B89B3D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02770ACF-16E8-E7C6-A67D-6D3D00E7936A" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="SEASON_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008371</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>1B6FB87B-1F29-3797-57C9-C682DC7A7BB2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5357F3BA-FFD3-23DA-64F9-135AC0DC740A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4636391E-7CA8-80CE-89B3-F0F2B91CCF3D" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="SEASON_NAME_UN">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008372</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>5EE764AB-F0B1-8A66-3EC9-08583D54238B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83614995-2234-3351-7969-B2EA5AF8B383"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SEASON_TIMESTAMP_ORDER" directorySegmentName="seg_0" id="58C142D8-D926-0DB2-7B8D-E980513EC88B">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SEASON_TIMESTAMP_ORDER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>C3789DFF-903C-6479-B116-3F9A4C455D9F</importedID>
+<rule><![CDATA[end_timestamp > start_timestamp]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
