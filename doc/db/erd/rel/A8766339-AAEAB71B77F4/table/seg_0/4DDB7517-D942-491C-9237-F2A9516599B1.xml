@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DDB7517-D942-491C-9237-F2A9516599B1" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="CLASSIFICATION">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>CLASSIFICATION</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>51AF8E44-A9E8-7888-65CC-E0C09ACB3D74</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="27E052B0-E827-1BB7-D991-A145478A71DB">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATION</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>D15E1E6B-F76F-D361-27D3-EE138D7ADA3D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;CLASSIFICATION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="9672C0B7-BF5F-036D-EC63-81D9798C55D6">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATION</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>F414ECF6-A953-8097-3B33-A5A9B6CA37D4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="DFFF9F78-7DE1-033E-DB6B-676FCFEC8A49">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATION</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>EF900B36-4217-BA0F-E6DC-5F8E49E3B71C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEASON_ID" id="B08CF0D1-A1B7-6A3F-5A20-F78CF7900E56">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATION</sourceObjSchema>
+<sourceObjName>SEASON_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>E9309593-F23E-BB44-A025-185BBBFC3515</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FCFEC98-79E4-7AE3-DA7E-8BB2A9361DCE" referredColumn="5357F3BA-FFD3-23DA-64F9-135AC0DC740A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB0BAA56-814A-5F10-6361-6B7D8EA0FE5E" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="CLASSIFICATION_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008380</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>198E7EFA-8C1E-4EEF-79CF-26C41106B0D5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27E052B0-E827-1BB7-D991-A145478A71DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76B85D35-C96E-828A-2E3D-D3E1D3B01189" name="SYS_C008381">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B08CF0D1-A1B7-6A3F-5A20-F78CF7900E56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

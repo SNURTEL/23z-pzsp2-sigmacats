@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B00FD3E-2B6E-ED5B-B219-5D81F0A1E501" name="SEASON">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>1554A994-E8D6-A784-FC01-B557A926D881</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="562BB214-B78E-30DD-0F56-41B666124888">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>5357F3BA-FFD3-23DA-64F9-135AC0DC740A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;SEASON_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="22F79EF6-C56B-1C3C-539C-23529474038F">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>83614995-2234-3351-7969-B2EA5AF8B383</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START TIMESTAMP" id="E5F8479A-2343-F3F1-E403-C70FDBBEAF9C">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>5E9220DC-B466-2465-E808-0A7CF1494DEB</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END TIMESTAMP" id="82925FA1-F1EF-31C3-92B0-89A5E03540A7">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>980DB8A7-8484-0DE1-11DD-A0969899E892</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="396B3912-D173-F36E-AA4F-0906A45AD6E1" name="SEASON PK">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>02770ACF-16E8-E7C6-A67D-6D3D00E7936A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>562BB214-B78E-30DD-0F56-41B666124888</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B4098499-9FB6-8F45-ED1A-4691C38E74A3" name="SEASON NAME UN">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:35:58 UTC</createdTime>
+<generatorID>4636391E-7CA8-80CE-89B3-F0F2B91CCF3D</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>22F79EF6-C56B-1C3C-539C-23529474038F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

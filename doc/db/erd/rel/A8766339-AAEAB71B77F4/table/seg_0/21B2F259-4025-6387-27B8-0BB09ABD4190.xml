@@ -1,0 +1,387 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21B2F259-4025-6387-27B8-0BB09ABD4190" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACE">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>C1AA6CCD-D966-0C03-F121-5D7481B8CE20</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F383BA62-00EC-D2FA-C005-65EE1F83198C">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>2F5480C4-4E53-8231-1257-8FD6CE66FE1F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;RACE_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="BC1AE155-D843-D931-B61D-96DAA4C8C527">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>D43C4494-7CCB-85A1-EC58-7374290D729D</importedID>
+<constraintName>RACE_STATUS_ENUM</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ended&apos;" description=""/>
+<valueDef value="&apos;in_progress&apos;" description=""/>
+<valueDef value="&apos;pending&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C6C1F591-D0B1-06A9-24A6-71B716E496A3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>A6EDBFF0-CAC9-62EB-C423-40D485BDF258</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="888B052D-3DE2-95F5-82E2-06E7E7CECCF9">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>8D5D72CC-31B7-94EF-28BE-CE1A69319A75</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUIREMENTS" id="AF99DBCE-E3F7-F2B6-CD8D-9C615B7BAD7C">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>REQUIREMENTS</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>79C54293-5CB9-5AAF-3672-F51F11FF041C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECKPOINTS_GPX_FILE" id="DC53936E-4C0A-F56B-8C97-0419F7B7E106">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>CHECKPOINTS_GPX_FILE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>BA184B1A-CB53-5C69-4B62-4BA3C931F977</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_TIMESTAMP" id="21F3F01A-B808-717D-2817-7C66FDD43AF3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>START_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>38B7E624-0F64-6132-5123-A5612BB493D4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_TIMESTAMP" id="FC08953C-DFD2-4C6D-B296-3CB03C9E3BD1">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>END_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>1C2CA6D1-B7CD-49C0-048A-D1B3B75BAEDD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPERATURE" id="3772444E-3830-0848-5FB2-CBE0C5843A59">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>TEMPERATURE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>C716EB1B-301C-6A2E-9681-1D749122A7F7</importedID>
+<constraintName>RACE_TEMPERATURE_ENUM</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;cold&apos;" description=""/>
+<valueDef value="&apos;hot&apos;" description=""/>
+<valueDef value="&apos;normal&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAIN" id="66279B12-F0B3-20DA-636B-0C4D71CAB8A2">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>RAIN</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>DCD82430-9C67-351C-8E62-B9C2C899B8C3</importedID>
+<constraintName>RACE_RAIN_ENUM</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;heavy&apos;" description=""/>
+<valueDef value="&apos;light&apos;" description=""/>
+<valueDef value="&apos;zero&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WIND" id="4BC33EEE-D55D-8378-1866-581A49E241F3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>WIND</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>0140CF0A-4292-D633-7647-6B424522D970</importedID>
+<constraintName>RACE_WIND_ENUM</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;heavy&apos;" description=""/>
+<valueDef value="&apos;light&apos;" description=""/>
+<valueDef value="&apos;zero&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEASON_ID" id="C66DADF9-55B2-FC99-3214-523EAE2DCC15">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>SEASON_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>E708AC89-594C-2B71-C13D-FCB065F9FEA4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EA95BBE-701D-AB8B-F12D-7856CF8E05EF" referredColumn="5357F3BA-FFD3-23DA-64F9-135AC0DC740A"/>
+</associations>
+</Column>
+<Column name="MEETUP_TIMESTAMP" id="8B572E3E-2B3E-74DB-7DDE-69E9888774EF">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>MEETUP_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>96B6459F-763E-4968-C330-6F2F0EBB735F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTRY_FEE_GR" id="BCBBC1EC-9971-2586-D06A-76168ABB840D">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>ENTRY_FEE_GR</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>22CD40E9-3EE4-BA18-ACAA-55B0D93ED010</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENT_GRAPHIC_FILE" id="C7AC8ABA-07E6-19B0-E8A8-63EEBAF879F4">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>EVENT_GRAPHIC_FILE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>D897B8AE-71AA-F46D-1A49-88F71F033086</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACE_TO_POINTS_MAPPING_JSON" id="8463EE92-8AF8-5ADE-257D-9C4333A4436D">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>PLACE_TO_POINTS_MAPPING_JSON</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>8C4480BA-D85B-1273-2AD2-B8585620CB3B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPONSOR_BANNERS_UUIDS_JSON" id="0D60841D-B2F7-DB98-88B0-5D43EA2D5130">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>SPONSOR_BANNERS_UUIDS_JSON</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>4D6154F1-BEE3-FFBF-C4FD-2C4CB3D54817</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84919EAD-025A-D94D-AB20-3EEF73035E07" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACE_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008398</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>9515A8C1-5AC3-DA74-CC63-750C01B0B121</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F383BA62-00EC-D2FA-C005-65EE1F83198C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEAE6F94-DED9-E5B1-035A-4A01D7BB4FF6" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACE_CHECKPOINTS_GPX_FILE_UN">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008399</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>0BA41F11-7594-714B-3000-BD4C9471AC5F</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC53936E-4C0A-F56B-8C97-0419F7B7E106"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6FF2FE6-AE6A-BFEB-46E7-4EA416901AB2" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RACE_EVENT_GRAPHIC_FILE_UN">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008446</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>2B2191DC-AFD7-C99D-103C-28CCFFEEF15E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7AC8ABA-07E6-19B0-E8A8-63EEBAF879F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E166847D-C363-8006-A454-18BF18FA5A24" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="IX_RACE_STATUS">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>IX_RACE_STATUS</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>259C7385-A45B-EE58-ED3A-404E7226C8C4</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC1AE155-D843-D931-B61D-96DAA4C8C527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A7A6EA1-01A8-987C-27ED-F6A657799377" name="SYS_C008400">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C66DADF9-55B2-FC99-3214-523EAE2DCC15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="RACE_TIMESTAMP_ORDER" directorySegmentName="seg_0" id="9FA24862-7C3C-340D-4F69-71224566A90C">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACE_TIMESTAMP_ORDER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>5895FF38-117E-15B6-C26D-A9A39934C1D1</importedID>
+<rule><![CDATA[end_timestamp > start_timestamp]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

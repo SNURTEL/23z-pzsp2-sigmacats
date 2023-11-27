@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39FEB1E3-B70F-FC0F-858A-A3F3221B8565" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="BIKE">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>BIKE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>12EC7B61-C9D5-32ED-7314-2166B97E03A9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C8AEFEBF-FDD0-AFC1-E942-D4B01593F7B5">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>BIKE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>D4FA8894-72FC-F535-CAED-6FB659FF10FF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;BIKE_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FC1D6606-784B-0500-63A5-E29DD887A66B">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>BIKE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>375FA39E-265C-01FA-8C6D-B3B49D76723C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="BDA790F9-DD7B-F21A-E0B9-9FA2C036F827">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>BIKE</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>66F50DFA-D770-8C38-5BAF-3607A605AE1C</importedID>
+<constraintName>BIKE_TYPE_ENUM</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;fixie&apos;" description=""/>
+<valueDef value="&apos;other&apos;" description=""/>
+<valueDef value="&apos;road&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRAND" id="0968974C-EFF1-7C55-EDD6-8DEF1CF3315A">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>BIKE</sourceObjSchema>
+<sourceObjName>BRAND</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>5639CF9D-20E1-A794-DF85-8FD8F9610725</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL" id="F7F8BB21-B6AD-9297-4FD6-1D45182BADB3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>BIKE</sourceObjSchema>
+<sourceObjName>MODEL</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>ED444266-BAF5-FCBB-CC82-BF7B9D11B1C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDER_ID" id="E72194F0-E038-0189-B58B-4EE4E7AD20B5">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>BIKE</sourceObjSchema>
+<sourceObjName>RIDER_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>2F371F38-3827-9485-A3F1-6D404D8B1B72</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86930C74-FDE2-78E8-E576-5C9A5F29CA3F" referredColumn="2255BBCE-C572-E5EF-996D-1EC3BE2DEB48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D391222-7D98-305F-579D-B687D3B8CF54" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="BIKE_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008414</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>01744D90-D2FE-1B86-9C26-C61789CC0AA9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8AEFEBF-FDD0-AFC1-E942-D4B01593F7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05026CA3-1DE0-FF4E-5AF3-F326799EBC6B" name="SYS_C008415">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72194F0-E038-0189-B58B-4EE4E7AD20B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

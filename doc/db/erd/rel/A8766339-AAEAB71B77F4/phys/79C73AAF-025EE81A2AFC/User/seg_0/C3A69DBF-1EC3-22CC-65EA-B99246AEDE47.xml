@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="USER1" directorySegmentName="seg_0" id="C3A69DBF-1EC3-22CC-65EA-B99246AEDE47">
-<sourceConnName>pzsp2</sourceConnName>
+<sourceConnName>oracle docker</sourceConnName>
 <sourceObjName>USER1</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-24 00:07:56 UTC</createdTime>

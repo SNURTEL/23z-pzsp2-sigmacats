@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ACCOUNT_TYPE_RIDER_TRIGGER" directorySegmentName="seg_0" id="4C34798F-D82B-EDDF-93FB-503BF6569DE1">
-<sourceConnName>pzsp2</sourceConnName>
+<sourceConnName>oracle docker</sourceConnName>
 <sourceObjSchema>USER1</sourceObjSchema>
 <sourceObjName>ACCOUNT_TYPE_RIDER_TRIGGER</sourceObjName>
 <createdBy>tomek</createdBy>
@@ -10,5 +10,5 @@
 <body><![CDATA[DECLARE   account_type account.type%type; BEGIN     SELECT type into account_type from account where ID = :NEW.id;     IF 'rider' != account_type THEN         raise_application_error(-20001, 'Account type for id ' || TO_CHAR(:NEW.id) || 'must be rider');     end if; end;]]></body>
 <triggerTime>BEFORE</triggerTime>
 <owner>C3A69DBF-1EC3-22CC-65EA-B99246AEDE47</owner>
-<table>2EC4857F-6DA7-B39A-011C-58D50C869A43</table>
+<table>3BD7E244-EEFA-3747-D6C1-7EFFA64DE018</table>
 </TriggerOraclev10g>
