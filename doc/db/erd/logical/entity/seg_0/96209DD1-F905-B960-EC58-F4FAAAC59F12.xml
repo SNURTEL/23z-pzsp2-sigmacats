@@ -5,6 +5,7 @@
 <generatorID>05B32F13-B72D-D4E0-0BB7-EF13F8035B95</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,6 +23,7 @@
 <generatorID>78F97276-817A-C3AB-6353-C34B6A1008AF</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -38,6 +40,7 @@
 <generatorID>65B0F1C3-E6D5-CDA6-82FC-B5EB56A2D1E4</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <constraintName>RACE_PARTICIPATION_STATUS_ENUM</constraintName>
@@ -58,6 +61,7 @@
 <generatorID>3A24AAFD-C739-CC46-88E9-FD5D4FB0F38B</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <constraintName>RACE_PARTICIPATION_PLACE_GENERATED_POSITIVE</constraintName>
@@ -79,6 +83,7 @@
 <generatorID>3B6477B4-8F09-C600-8A90-FA2DADBD3980</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <constraintName>RACE_PARTICIPATION_PLACE_ASSIGNED_POSITIVE</constraintName>
@@ -100,6 +105,7 @@
 <generatorID>077C5E66-6121-F7B4-EB2B-8055DF3AEB65</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -115,6 +121,7 @@
 <generatorID>8EC4A71B-8CB7-AA96-1153-E63CCC729D02</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -129,6 +136,7 @@
 <generatorID>3D44C25A-9273-2EAB-38A6-6E47B4B780B2</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -144,6 +152,7 @@
 <generatorID>3AE595C5-2DA8-CCA4-1FEE-F7D08E934936</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <referedAttribute>867279E4-B6AF-BD40-4B68-566AB9B473E4</referedAttribute>
@@ -152,7 +161,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
 </Attribute>
 <Attribute name="BIKE ID" id="37C0FAF7-D9A8-4037-9B7A-9EF20AF830FF">
 <createdBy>tomek</createdBy>
@@ -160,6 +169,7 @@
 <generatorID>F5B77DA7-644B-A0FF-303A-ABFE42D8A606</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <referedAttribute>BAF34E8A-7D58-C5E0-94FC-ED72DED7971A</referedAttribute>
@@ -168,7 +178,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -178,6 +188,7 @@
 <generatorID>458873D9-A13F-E32C-F62A-BE3FDBA71607</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <pk>true</pk>

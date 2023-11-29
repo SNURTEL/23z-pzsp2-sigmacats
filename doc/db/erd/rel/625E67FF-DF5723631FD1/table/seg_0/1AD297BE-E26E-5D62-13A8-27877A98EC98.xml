@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AD297BE-E26E-5D62-13A8-27877A98EC98" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="RIDER">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RIDER</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>3BD7E244-EEFA-3747-D6C1-7EFFA64DE018</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA6027F5-3C32-3B15-C368-A2B9BEC7922F">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>2255BBCE-C572-E5EF-996D-1EC3BE2DEB48</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="253E664F-DF6F-5CD3-8E5D-5FADD4DB8A62" referredColumn="106CAD0F-C952-9D8D-ED3E-F261269AD28E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84E6781E-2F63-B949-034A-696ADD8F5C9B" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="RIDER_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008402</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>5B3999DF-CA2A-0D26-68EA-0E1E84D5BA5F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6027F5-3C32-3B15-C368-A2B9BEC7922F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81DBEABE-9CAE-5D2F-D369-F7CE70138841" name="SYS_C008403">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6027F5-3C32-3B15-C368-A2B9BEC7922F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
