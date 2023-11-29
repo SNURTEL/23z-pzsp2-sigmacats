@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D3420FA-6A55-3B8A-6069-89E5449EDF36" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="ACCESSLIMITERCLASSIFICATIONLINK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>ACCESSLIMITERCLASSIFICATIONLINK</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>275060F3-E2CD-1E42-E4B4-5EEF1B60FD08</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCESS_LIMITER_ID" id="F5BACDEB-506B-6B41-D75B-E12AC0762F12">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>ACCESSLIMITERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>ACCESS_LIMITER_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>91F3B308-A0F1-7DE4-6A60-3F32F91B9268</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44C09583-133D-F7DB-6CB9-6F9D039EE075" referredColumn="DA6799D7-D488-89C2-7F42-50B2CEC3A9F6"/>
+</associations>
+</Column>
+<Column name="CLASSIFICATION_ID" id="4998DFAA-CEC1-B8AE-2FDB-1E9249575434">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>ACCESSLIMITERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>CLASSIFICATION_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>BB08781E-4856-7582-8A89-76575005FF99</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="345AE6C1-AB90-652A-8804-C52E33229B5A" referredColumn="DF0D77DD-5DAE-158D-36CA-FDFCDD2CB8EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DC10772-E965-C4FA-B075-C02288077BE0" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="ACCESSLIMITERCLASSIFICATIONLINK_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008406</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>55F075EA-FCA3-104A-071F-4F83B0CC3157</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5BACDEB-506B-6B41-D75B-E12AC0762F12"/>
+<colUsage columnID="4998DFAA-CEC1-B8AE-2FDB-1E9249575434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF171F57-06FA-E83E-F854-68E6878C742C" name="SYS_C008408">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4998DFAA-CEC1-B8AE-2FDB-1E9249575434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01898E97-F014-AB3A-EC0B-F98537F18343" name="SYS_C008407">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5BACDEB-506B-6B41-D75B-E12AC0762F12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

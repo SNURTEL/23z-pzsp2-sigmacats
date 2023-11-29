@@ -5,7 +5,7 @@
 <sourceObjName>RACE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>C1AA6CCD-D966-0C03-F121-5D7481B8CE20</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>2F5480C4-4E53-8231-1257-8FD6CE66FE1F</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <sourceObjName>STATUS</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>D43C4494-7CCB-85A1-EC58-7374290D729D</importedID>
 <constraintName>RACE_STATUS_ENUM</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,7 +55,7 @@
 <sourceObjName>NAME</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>A6EDBFF0-CAC9-62EB-C423-40D485BDF258</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <sourceObjName>DESCRIPTION</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>8D5D72CC-31B7-94EF-28BE-CE1A69319A75</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -85,7 +85,7 @@
 <sourceObjName>REQUIREMENTS</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>79C54293-5CB9-5AAF-3672-F51F11FF041C</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -101,7 +101,7 @@
 <sourceObjName>CHECKPOINTS_GPX_FILE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>BA184B1A-CB53-5C69-4B62-4BA3C931F977</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -116,7 +116,7 @@
 <sourceObjName>START_TIMESTAMP</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>38B7E624-0F64-6132-5123-A5612BB493D4</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -131,7 +131,7 @@
 <sourceObjName>END_TIMESTAMP</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>1C2CA6D1-B7CD-49C0-048A-D1B3B75BAEDD</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -146,7 +146,7 @@
 <sourceObjName>TEMPERATURE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>C716EB1B-301C-6A2E-9681-1D749122A7F7</importedID>
 <constraintName>RACE_TEMPERATURE_ENUM</constraintName>
 <nullsAllowed>true</nullsAllowed>
@@ -168,7 +168,7 @@
 <sourceObjName>RAIN</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>DCD82430-9C67-351C-8E62-B9C2C899B8C3</importedID>
 <constraintName>RACE_RAIN_ENUM</constraintName>
 <nullsAllowed>true</nullsAllowed>
@@ -190,7 +190,7 @@
 <sourceObjName>WIND</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>0140CF0A-4292-D633-7647-6B424522D970</importedID>
 <constraintName>RACE_WIND_ENUM</constraintName>
 <nullsAllowed>true</nullsAllowed>
@@ -212,7 +212,7 @@
 <sourceObjName>SEASON_ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>E708AC89-594C-2B71-C13D-FCB065F9FEA4</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -231,7 +231,7 @@
 <sourceObjName>MEETUP_TIMESTAMP</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>96B6459F-763E-4968-C330-6F2F0EBB735F</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -247,7 +247,7 @@
 <sourceObjName>ENTRY_FEE_GR</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>22CD40E9-3EE4-BA18-ACAA-55B0D93ED010</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -263,7 +263,7 @@
 <sourceObjName>EVENT_GRAPHIC_FILE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>D897B8AE-71AA-F46D-1A49-88F71F033086</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -278,7 +278,7 @@
 <sourceObjName>PLACE_TO_POINTS_MAPPING_JSON</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>8C4480BA-D85B-1273-2AD2-B8585620CB3B</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -293,7 +293,7 @@
 <sourceObjName>SPONSOR_BANNERS_UUIDS_JSON</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>4D6154F1-BEE3-FFBF-C4FD-2C4CB3D54817</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -311,7 +311,7 @@
 <sourceObjName>SYS_C008398</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>9515A8C1-5AC3-DA74-CC63-750C01B0B121</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -326,7 +326,7 @@
 <sourceObjName>SYS_C008399</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>0BA41F11-7594-714B-3000-BD4C9471AC5F</importedID>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -340,7 +340,7 @@
 <sourceObjName>SYS_C008446</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>2B2191DC-AFD7-C99D-103C-28CCFFEEF15E</importedID>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -354,7 +354,7 @@
 <sourceObjName>IX_RACE_STATUS</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>259C7385-A45B-EE58-ED3A-404E7226C8C4</importedID>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -364,7 +364,7 @@
 <ind_PK_UK id="9A7A6EA1-01A8-987C-27ED-F6A657799377" name="SYS_C008400">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

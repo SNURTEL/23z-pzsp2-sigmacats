@@ -5,7 +5,7 @@
 <sourceObjName>SYS_C008400</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>87A351CC-DBEA-BA7E-D470-A731C4BF4CF6</importedID>
 <referredTableLongName>USER1.SEASON</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

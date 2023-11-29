@@ -5,7 +5,7 @@
 <sourceObjName>RACEBONUS</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>0BCE6800-DED0-491B-AA12-0A7A1523DDF0</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>7175D74E-65B5-1890-F3A1-BACA3B3C7F0D</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <sourceObjName>NAME</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>2A5B6532-F259-BAAA-B0C9-771FC4D76C55</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <sourceObjName>RULE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>8AB30A03-B586-EB98-5667-F5621A43A17E</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -64,7 +64,7 @@
 <sourceObjName>POINTS_MULTIPLIER</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>13BBCDC7-E8F8-83AA-CB7D-10696CEE1F54</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -81,7 +81,7 @@
 <sourceObjName>SYS_C008364</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>8F60F541-FF18-BC4B-2D98-E394C8FC0372</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -96,7 +96,7 @@
 <sourceObjName>SYS_C008365</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>ABE7B8B9-D18C-1EEA-9286-505B2B947C6E</importedID>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

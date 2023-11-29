@@ -2,7 +2,7 @@
 <StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="SDO_GEOMETRY" directorySegmentName="seg_0" id="47E390DE-0671-C4B1-8428-0F45CBEE18F8">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-21 16:30:15 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <visible>false</visible>
 <predefined>true</predefined>
 <final>false</final>

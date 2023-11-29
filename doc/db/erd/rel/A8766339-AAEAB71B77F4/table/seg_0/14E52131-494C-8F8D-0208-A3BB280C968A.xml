@@ -5,7 +5,7 @@
 <sourceObjName>COORDINATOR</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>33C7E411-0AA6-8E89-DEC1-0ABF37AFBF58</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>3340E403-08E7-A13A-EC49-3B529236D791</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,7 +36,7 @@
 <sourceObjName>PHONE_NUMBER</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>B821A5EE-F107-21F0-CE9E-9E9844A4B2E0</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,7 +53,7 @@
 <sourceObjName>SYS_C008383</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <importedID>B5B4EA50-2F9C-6CAA-DE42-F4711F7AD058</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -65,7 +65,7 @@
 <ind_PK_UK id="0B252286-6139-D77D-8BD6-0DD4E8059A0A" name="SYS_C008384">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>andrzej</ownerDesignName>
+<ownerDesignName>erd</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
