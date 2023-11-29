@@ -5,7 +5,7 @@
 <sourceObjName>ALEMBIC_VERSION</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>23A1F9A2-77E0-EAB5-CB3A-58C29FD27DE5</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>VERSION_NUM</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>D5EC6FA7-026B-5B3F-454A-09C9F8DF218A</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <sourceObjName>ALEMBIC_VERSION_PKC</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>54857153-C96F-E3F4-3AB3-F1B9DC0264DE</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -49,7 +49,7 @@
 <sourceObjName>ALEMBIC_VERSION_PKC</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>588BB9F3-55E5-6177-736B-615305E4EE5D</importedID>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>

@@ -5,7 +5,7 @@
 <sourceObjName>RIDER</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>92A5DD94-2813-7F08-4C29-ADFEF516ABA5</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>BD2C5F2D-D495-48E7-BA4A-522D641519D5</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,7 +38,7 @@
 <sourceObjName>SYS_C008402</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>3E08D3BF-54EA-BD39-5AA1-EC4B2ED86830</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -50,7 +50,7 @@
 <ind_PK_UK id="4A913D49-2E59-2393-106D-7E72DF9F9A60" name="SYS_C008403">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

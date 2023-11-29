@@ -5,7 +5,7 @@
 <sourceObjName>SYS_C008403</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>F9DD29EE-0041-AC14-9C2B-285E5C6B0785</importedID>
 <referredTableLongName>USER1.ACCOUNT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

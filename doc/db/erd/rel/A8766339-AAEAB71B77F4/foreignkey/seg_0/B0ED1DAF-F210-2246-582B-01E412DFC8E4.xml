@@ -5,7 +5,7 @@
 <sourceObjName>SYS_C008420</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>AE7B2B4B-448B-FCF8-CB45-A4066BAEA0D9</importedID>
 <referredTableLongName>USER1.RACE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -5,7 +5,7 @@
 <sourceObjName>CLASSIFICATIONACCESSLIMITER</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>0697019E-1842-E29C-018E-FE7CDDC2D5F5</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>244564D8-1DF1-5D24-C40E-7F99BC223317</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <sourceObjName>NAME</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>B8C2CE5D-8DB0-A0A9-00B4-930A9618CB9F</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <sourceObjName>RULE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>068F38CB-BEDB-2114-A686-86937ADE2D10</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,7 +66,7 @@
 <sourceObjName>SYS_C008358</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>6D0F9D94-4BAA-82A6-88FC-2F5712B833C5</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -81,7 +81,7 @@
 <sourceObjName>SYS_C008359</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>98CD7F68-347E-A14A-4AA3-E0413460EA12</importedID>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

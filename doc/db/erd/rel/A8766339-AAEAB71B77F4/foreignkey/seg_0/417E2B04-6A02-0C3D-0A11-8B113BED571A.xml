@@ -5,7 +5,7 @@
 <sourceObjName>SYS_C008408</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>740C017A-6FC7-D7B8-5621-62FE3ADFCA93</importedID>
 <referredTableLongName>USER1.CLASSIFICATION</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

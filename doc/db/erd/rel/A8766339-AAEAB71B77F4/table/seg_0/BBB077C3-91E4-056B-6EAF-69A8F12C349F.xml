@@ -5,7 +5,7 @@
 <sourceObjName>ACCOUNT</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>D2B67D40-50CB-6968-D393-22438A32AB0B</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>06C3C439-A0C4-241A-192F-F301AAA7C0EC</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <sourceObjName>TYPE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>E3D06A69-F8D7-1D9E-031B-3EABAE74136C</importedID>
 <constraintName>ACCOUNT_TYPE_ENUM</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,7 +55,7 @@
 <sourceObjName>USERNAME</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>4D1F6A7A-5A11-7F9C-6695-AA48D4D52465</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <sourceObjName>NAME</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>43162B78-0F9D-7B7F-3144-3C374A866C54</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -85,7 +85,7 @@
 <sourceObjName>SURNAME</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>ED53E3D8-DD1C-F748-566D-01E6A0C074E2</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -100,7 +100,7 @@
 <sourceObjName>EMAIL</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>5E59BC4E-A3FB-A123-DC48-D5B7110E29DF</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -115,7 +115,7 @@
 <sourceObjName>PASSWORD_HASH</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>E5AD1E67-3D9A-5F4E-57A0-F748F59BB2D5</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -130,7 +130,7 @@
 <sourceObjName>GENDER</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>AB061B8B-09D6-E994-92E2-45F8E42F956D</importedID>
 <constraintName>ACCOUNT_GENDER_ENUM</constraintName>
 <nullsAllowed>true</nullsAllowed>
@@ -151,7 +151,7 @@
 <sourceObjName>BIRTH_DATE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>67E42AEC-9DCD-8163-3149-1DC8046BCBD6</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -169,7 +169,7 @@
 <sourceObjName>SYS_C008352</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>0B88D416-71E9-A43D-31E4-662766E6C0A3</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -184,7 +184,7 @@
 <sourceObjName>SYS_C008353</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>05A80CCB-9C16-3B39-699A-43257F114FCC</importedID>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -198,7 +198,7 @@
 <sourceObjName>SYS_C008354</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>C545FDDE-BB67-CB27-4A21-C1D740327543</importedID>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

@@ -5,7 +5,7 @@
 <sourceObjName>RIDERCLASSIFICATIONLINK</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>EC2751D4-47DB-8E50-1CE4-FB5A3599FC53</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -17,7 +17,7 @@
 <sourceObjName>SCORE</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>435B7F8A-314F-6823-C3BD-3B930E4D8410</importedID>
 <constraintName>RIDER_CLASSIFICATION_LINK_SCORE_NON_NEGATIVE</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -38,7 +38,7 @@
 <sourceObjName>RIDER_ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>EA511081-2378-2B85-31F9-CB5F9B0A1A74</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <sourceObjName>CLASSIFICATION_ID</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>71CE4BDA-C7B6-2E62-5173-3826F5D82C74</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,7 +78,7 @@
 <sourceObjName>SYS_C008425</sourceObjName>
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <importedID>CEAF2451-C606-4CDC-BACB-8E69C55C0D56</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -91,7 +91,7 @@
 <ind_PK_UK id="0897D68A-D983-597C-0A1E-6FCBC888890A" name="SYS_C008426">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -101,7 +101,7 @@
 <ind_PK_UK id="554BC25E-1C5D-FCE6-E784-B0FBC46106FD" name="SYS_C008427">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
+<ownerDesignName>andrzej</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
