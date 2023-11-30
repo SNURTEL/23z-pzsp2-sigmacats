@@ -3,7 +3,8 @@
 ---
 
 ## About the project 
-Put some fancy description here.
+The aim of the project is to create a system to support the organization of bicycle races in league format. The system should support organizers in organizing races and users in participating in races.
+Organizers define a league as a series of short races of 2-3 laps on a track in the form of loops, from which results are collected and aggregated over the course of about 10 races. This makes it possible to determine which participant is the best.
 
 This is the main project repository. 
 - For backend, visit [this repo](https://github.com/SNURTEL/sigmacats-backend)
