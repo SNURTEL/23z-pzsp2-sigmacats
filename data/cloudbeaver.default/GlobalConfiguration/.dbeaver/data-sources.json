@@ -1,0 +1,76 @@
+{
+	"folders": {},
+	"connections": {
+		"postgresql-template-1": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL (Template)",
+			"template": true,
+			"read-only": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false"
+				}
+			}
+		},
+		"oracle_thin-18bfdc32c04-566d01a8e7e02417": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "USER Oracle@oracle-db",
+			"save-password": true,
+			"configuration": {
+				"host": "oracle-db",
+				"port": "1521",
+				"database": "FREE",
+				"url": "jdbc:oracle:thin:@oracle-db:1521:FREE",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-sid-service@": "SID",
+					"oracle.logon-as": "Normal"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-18bfdc5460d-1fe9304dc5c92019": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "ADMIN (DO NOT TOUCH) Oracle@oracle-db",
+			"description": "Do not touch if you are not sure what you\u0027re doing",
+			"save-password": true,
+			"configuration": {
+				"host": "oracle-db",
+				"port": "1521",
+				"database": "FREE",
+				"url": "jdbc:oracle:thin:@oracle-db:1521:FREE",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-sid-service@": "SID",
+					"oracle.logon-as": "Normal"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}

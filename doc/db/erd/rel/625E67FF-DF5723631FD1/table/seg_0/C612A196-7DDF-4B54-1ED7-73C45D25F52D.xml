@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C612A196-7DDF-4B54-1ED7-73C45D25F52D" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="RACEBONUSRACELINK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACEBONUSRACELINK</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>600318B1-79DE-7A2F-4904-612535E83943</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RACE_BONUS_ID" id="30B82657-0DF3-B8FA-5453-252438B68CE3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEBONUSRACELINK</sourceObjSchema>
+<sourceObjName>RACE_BONUS_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>567150FD-BBBE-F5D8-95C7-B9B4ABBDBDD4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0763A17-DFFB-F98A-CEAF-9AE51F307B41" referredColumn="A526A4F0-E951-F069-46B8-6974030BAC21"/>
+</associations>
+</Column>
+<Column name="RACE_ID" id="B5D3E122-1DCE-1B78-D954-2AB743B9E0C8">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEBONUSRACELINK</sourceObjSchema>
+<sourceObjName>RACE_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>B0BDAD87-7F7F-B093-2553-B69847B2CAA3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B931C466-C797-D85A-D855-194AFED5CFCE" referredColumn="01005F9F-DB1E-0F86-2727-6CEE7B3FA5CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="283B4F24-C489-BC93-EF0F-2EF91DAFE2A6" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="RACEBONUSRACELINK_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008418</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>932C139F-D818-C443-61DA-CD41C5787B03</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B82657-0DF3-B8FA-5453-252438B68CE3"/>
+<colUsage columnID="B5D3E122-1DCE-1B78-D954-2AB743B9E0C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7C3A9F2-5BF4-695E-D57D-6424F60864F6" name="SYS_C008420">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5D3E122-1DCE-1B78-D954-2AB743B9E0C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAB4DDF5-F087-63D9-E3F2-9389F66EE9EB" name="SYS_C008419">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B82657-0DF3-B8FA-5453-252438B68CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7974C2E1-4362-5653-ED07-D6F5BC80B796" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="CLASSIFICATIONACCESSLIMITER">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>CLASSIFICATIONACCESSLIMITER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>0697019E-1842-E29C-018E-FE7CDDC2D5F5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="726BCD0B-6A48-AB5A-7CC4-3150C953B1C4">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATIONACCESSLIMITER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>244564D8-1DF1-5D24-C40E-7F99BC223317</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;CLASSIFICATIONACCESSLIMITER_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="249C9B09-78CD-207C-EF75-91D6FDAA9C59">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATIONACCESSLIMITER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>B8C2CE5D-8DB0-A0A9-00B4-930A9618CB9F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RULE" id="A66FCF9F-A88C-E19D-50B6-3F49273BC161">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>CLASSIFICATIONACCESSLIMITER</sourceObjSchema>
+<sourceObjName>RULE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>068F38CB-BEDB-2114-A686-86937ADE2D10</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C44515A-7610-CFB8-D409-C915AECC9B9A" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="CLASSIFICATIONACCESSLIMITER_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008358</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>6D0F9D94-4BAA-82A6-88FC-2F5712B833C5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="726BCD0B-6A48-AB5A-7CC4-3150C953B1C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5AC179E-E41D-F172-DC7D-358BAE3AA5B1" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="CLASSIFICATIONACCESSLIMITER_NAME_UN">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008359</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>98CD7F68-347E-A14A-4AA3-E0413460EA12</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249C9B09-78CD-207C-EF75-91D6FDAA9C59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

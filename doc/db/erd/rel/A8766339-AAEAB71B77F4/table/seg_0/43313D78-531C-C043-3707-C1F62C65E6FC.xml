@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43313D78-531C-C043-3707-C1F62C65E6FC" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RIDERCLASSIFICATIONLINK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RIDERCLASSIFICATIONLINK</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>EC2751D4-47DB-8E50-1CE4-FB5A3599FC53</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SCORE" id="B13E6B74-837E-EA75-5C96-F04D82F35457">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>SCORE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>435B7F8A-314F-6823-C3BD-3B930E4D8410</importedID>
+<constraintName>RIDER_CLASSIFICATION_LINK_SCORE_NON_NEGATIVE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="score &gt;= 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="score &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDER_ID" id="A4E0C3FC-450B-3D1F-7DA8-B2167728CBD6">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>RIDER_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>EA511081-2378-2B85-31F9-CB5F9B0A1A74</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="420319C3-75AB-39BC-59D0-FCBC24F9B0E7" referredColumn="2255BBCE-C572-E5EF-996D-1EC3BE2DEB48"/>
+</associations>
+</Column>
+<Column name="CLASSIFICATION_ID" id="010C32C8-8C6A-187F-2DC5-067D3748A5E3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDERCLASSIFICATIONLINK</sourceObjSchema>
+<sourceObjName>CLASSIFICATION_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>71CE4BDA-C7B6-2E62-5173-3826F5D82C74</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A90F2387-FBC6-6D44-E99C-283D27BC5404" referredColumn="27E052B0-E827-1BB7-D991-A145478A71DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4159B50A-ED4E-F315-4ACF-DA2829F46E14" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RIDERCLASSIFICATIONLINK_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008425</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>CEAF2451-C606-4CDC-BACB-8E69C55C0D56</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4E0C3FC-450B-3D1F-7DA8-B2167728CBD6"/>
+<colUsage columnID="010C32C8-8C6A-187F-2DC5-067D3748A5E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0897D68A-D983-597C-0A1E-6FCBC888890A" name="SYS_C008426">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="010C32C8-8C6A-187F-2DC5-067D3748A5E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="554BC25E-1C5D-FCE6-E784-B0FBC46106FD" name="SYS_C008427">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4E0C3FC-450B-3D1F-7DA8-B2167728CBD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

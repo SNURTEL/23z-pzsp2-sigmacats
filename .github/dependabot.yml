@@ -1,0 +1,16 @@
+version: 2
+
+updates:
+  - package-ecosystem: gitsubmodule
+    schedule:
+        interval: "daily"
+    directory: /
+    registries:
+      - github-pzsp2
+
+registries:
+  github-pzsp2:
+    type: git
+    url: https://github.com
+    username: "tomek.owienko1@gmail.com"
+    password: ${{ secrets.GA_SUBMODULE_UPDATE_TOKEN }}

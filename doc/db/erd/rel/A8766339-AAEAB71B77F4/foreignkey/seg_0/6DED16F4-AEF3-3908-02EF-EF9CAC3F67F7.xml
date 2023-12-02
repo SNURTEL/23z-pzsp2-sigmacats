@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DED16F4-AEF3-3908-02EF-EF9CAC3F67F7" containerWithKeyObject="05B32F13-B72D-D4E0-0BB7-EF13F8035B95" localFKIndex="46B853EB-E3C3-DAF9-ECC7-A4C4F82C3860" name="SYS_C008439">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008439</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>38CE5498-E8D0-04E0-FF25-001C60AC5B17</importedID>
+<referredTableLongName>USER1.BIKE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39FEB1E3-B70F-FC0F-858A-A3F3221B8565</referredTableID>
+<keyObject>6D391222-7D98-305F-579D-B687D3B8CF54</keyObject>
+<referredKeyID>6D391222-7D98-305F-579D-B687D3B8CF54</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

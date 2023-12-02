@@ -1,0 +1,300 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D28DC7FC-62B3-9D0E-64BC-A36A8998A8AE" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="RACEPARTICIPATION">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACEPARTICIPATION</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>05B32F13-B72D-D4E0-0BB7-EF13F8035B95</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="100CAD23-A735-73F8-1F0B-8B2CA0584475">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>78F97276-817A-C3AB-6353-C34B6A1008AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;USER1&quot;.&quot;RACEPARTICIPATION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="A1AE73D4-04D6-5066-4E9F-757260597797">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>65B0F1C3-E6D5-CDA6-82FC-B5EB56A2D1E4</importedID>
+<constraintName>RACE_PARTICIPATION_STATUS_ENUM</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;approved&apos;" description=""/>
+<valueDef value="&apos;pending&apos;" description=""/>
+<valueDef value="&apos;rejected&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACE_GENERATED" id="46B8D8B8-8F69-C20C-A472-EAAA51879B2E">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>PLACE_GENERATED</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>3A24AAFD-C739-CC46-88E9-FD5D4FB0F38B</importedID>
+<constraintName>RACE_PARTICIPATION_PLACE_GENERATED_POSITIVE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="place_generated &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="place_generated &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACE_ASSIGNED" id="80A3329F-9591-834C-7605-52C82C5B1AE2">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>PLACE_ASSIGNED</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>3B6477B4-8F09-C600-8A90-FA2DADBD3980</importedID>
+<constraintName>RACE_PARTICIPATION_PLACE_ASSIGNED_POSITIVE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="place_assigned &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="place_assigned &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDE_START_TIMESTAMP" id="1075F7AD-785B-84D9-8207-9165803F0AA3">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDE_START_TIMESTAMP</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>077C5E66-6121-F7B4-EB2B-8055DF3AEB65</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDE_END_TIMESTAMP" id="DB1C9E12-AD59-BD43-587B-629E809BE379">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDE_END_TIMESTAMP</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>8EC4A71B-8CB7-AA96-1153-E63CCC729D02</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RACE_PARTICIPATION_GPX_REQUIRES_TIMESTAMP</notNullConstraintName>
+</Column>
+<Column name="RIDE_GPX_FILE" id="7057A0A9-663B-FFD8-898D-E08193E95BAE">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDE_GPX_FILE</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>3D44C25A-9273-2EAB-38A6-6E47B4B780B2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDER_ID" id="A0946A92-4161-B14B-EA89-51797CF8DBA1">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDER_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>80BA1968-6A04-C53A-DF7C-E5617E495F2B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1766E999-377F-E3B0-51BB-CCED65BAE70A" referredColumn="BA6027F5-3C32-3B15-C368-A2B9BEC7922F"/>
+</associations>
+</Column>
+<Column name="RACE_ID" id="8B472E10-F4C3-B371-2C64-486F6058EABC">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RACE_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>32E83548-65F3-701B-5AAB-3A9936042B04</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBC77E8A-7382-BC69-F03E-F331F310DE07" referredColumn="01005F9F-DB1E-0F86-2727-6CEE7B3FA5CD"/>
+</associations>
+</Column>
+<Column name="BIKE_ID" id="27E7A9C8-96E0-FC61-0181-8368E3EBF787">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>BIKE_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>2D8FEA5D-4D4F-48F4-807F-7211A9B288A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2DF2093-BB4F-9087-7093-F6354EF7DED9" referredColumn="2C3539E6-0ABF-F36A-3EE8-5CCE1D14BF0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80DD4E02-74E5-861B-E5D0-F452C5F8C487" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="RACEPARTICIPATION_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008438</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>458873D9-A13F-E32C-F62A-BE3FDBA71607</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="100CAD23-A735-73F8-1F0B-8B2CA0584475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD91C086-DE90-A908-865C-065C43E55C96" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="IX_RACEPARTICIPATION_RACE_ID">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>IX_RACEPARTICIPATION_RACE_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>2E933294-82FB-EEE8-C5F3-D942A56DBD7E</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B472E10-F4C3-B371-2C64-486F6058EABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48B15E7B-317D-40F3-9222-FEB1BA4366B4" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="IX_RACEPARTICIPATION_RIDER_ID">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>IX_RACEPARTICIPATION_RIDER_ID</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>DFE0609A-E0AD-6271-D944-476A2C4517AE</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0946A92-4161-B14B-EA89-51797CF8DBA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30BFF15B-FE4F-6059-65D1-1D0EC535CE2C" schemaObject="3830C2FE-D532-1151-8F6D-32BCA0B1C43F" name="IX_RACEPARTICIPATION_STATUS">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>IX_RACEPARTICIPATION_STATUS</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>143206F8-DE3F-16B2-35B3-AFC182703260</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1AE73D4-04D6-5066-4E9F-757260597797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08C32E25-3547-121F-25AD-71614284358A" name="SYS_C008440">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B472E10-F4C3-B371-2C64-486F6058EABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D5D3A42-2850-8818-7039-D83B740A384C" name="SYS_C008439">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27E7A9C8-96E0-FC61-0181-8368E3EBF787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53248A28-3AA1-7E12-1857-3EC846B84825" name="SYS_C008441">
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0946A92-4161-B14B-EA89-51797CF8DBA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="RACE_PARTICIPATION_TIMESTAMP_ORDER" directorySegmentName="seg_0" id="A27A40EE-C38C-0E7C-7CC6-F43578506000">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACE_PARTICIPATION_TIMESTAMP_ORDER</sourceObjName>
+<createdBy>jakub</createdBy>
+<createdTime>2023-11-29 00:08:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>E499C54C-9398-2249-0C84-5DA8B749E266</importedID>
+<rule><![CDATA[ride_end_timestamp > ride_start_timestamp]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

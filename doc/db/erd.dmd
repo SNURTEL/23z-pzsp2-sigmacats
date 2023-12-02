@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erd" id="05DE5872-631F-17E9-CF1D-926E2A011000" version="3.5">
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-21 16:30:15 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>05DE5872-631F-17E9-CF1D-926E2A011000</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F21EA603-2ADA-B428-35C9-4DB8C3E9350B">
+<designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="32179467-34E4-A814-961D-D8E0E1653D8C">
+<designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BC24BE74-660A-A7F7-C4BD-CC9F0E41F29F">
+<designStoragePath>/home/tomek/PZSP2/23z-pzsp2-sigmacats/doc/db</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="05DE5872-631F-17E9-CF1D-926E2A011000">
+<designStoragePath>C:\Users\jakub\23z-pzsp2-sigmacats\doc\db\erd</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
