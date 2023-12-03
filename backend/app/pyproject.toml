@@ -10,7 +10,7 @@ python = "^3.10"
 fastapi = "^0.104.1"
 uvicorn = "^0.24.0.post1"
 httpx = "^0.25.1"
-sqlmodel = "^0.0.11"
+sqlmodel = "0.0.12"
 oracledb = "^1.4.2"
 celery = "^5.3.5"
 redis = "^5.0.1"
@@ -19,6 +19,7 @@ tenacity = "^8.2.3"
 alembic = "^1.12.1"
 jsonschema = "^4.20.0"
 types-jsonschema = "^4.20.0.0"
+fastapi-users = {extras = ["sqlmodel"], version = "^12.1.2"}
 
 [tool.poetry.group.test]
 optional = true
