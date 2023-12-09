@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="417E2B04-6A02-0C3D-0A11-8B113BED571A" containerWithKeyObject="275060F3-E2CD-1E42-E4B4-5EEF1B60FD08" localFKIndex="85D6A53A-046F-2030-E51C-305F9496BE36" name="SYS_C008408">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3A069F4-7E83-FE0D-4D3F-7029C3DEFF85" containerWithKeyObject="8E56F994-7910-5A93-175F-58691CEDE5CC" localFKIndex="4AAB2C65-D1FF-6CE7-1686-627783F5BE4A" name="SYS_C008455">
 <sourceConnName>oracle docker</sourceConnName>
 <sourceObjSchema>USER1</sourceObjSchema>
-<sourceObjName>SYS_C008408</sourceObjName>
+<sourceObjName>SYS_C008455</sourceObjName>
 <createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<importedID>740C017A-6FC7-D7B8-5621-62FE3ADFCA93</importedID>
+<importedID>F7743B01-E992-3A84-F720-50ADE04A554C</importedID>
 <referredTableLongName>USER1.CLASSIFICATION</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>4DDB7517-D942-491C-9237-F2A9516599B1</referredTableID>

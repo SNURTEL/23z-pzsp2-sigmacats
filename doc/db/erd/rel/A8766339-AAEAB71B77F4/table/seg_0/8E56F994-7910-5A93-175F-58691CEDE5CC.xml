@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E56F994-7910-5A93-175F-58691CEDE5CC" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RIDERPARTICIPATIONCLASSIFICATIONPLACE">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RIDERPARTICIPATIONCLASSIFICATIONPLACE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>37F0135A-CDA6-FCB6-A573-1B8226E7121A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLACE" id="05549532-C7AC-6AF2-CDA5-81E0B8B01E4E">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDERPARTICIPATIONCLASSIFICATIONPLACE</sourceObjSchema>
+<sourceObjName>PLACE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>940C2F8C-D886-24C9-5BD7-DF84DA61C2F2</importedID>
+<constraintName>RIDER_PARTICIPATION_CLASSIFICATION_PLACE_PLACE_POSITIVE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="place &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="place &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RACE_PARTICIPATION_ID" id="E2CB2F8F-790F-0F0F-E6DF-F16AF5B10107">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDERPARTICIPATIONCLASSIFICATIONPLACE</sourceObjSchema>
+<sourceObjName>RACE_PARTICIPATION_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>EEE7E6F7-3B8D-EC8D-98A1-2299D9C86589</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEFD4B4D-27E0-1B31-B982-00C5E6E7DEA1" referredColumn="78F97276-817A-C3AB-6353-C34B6A1008AF"/>
+</associations>
+</Column>
+<Column name="CLASIFICATION_ID" id="C49B5FA4-30C2-29D8-8323-92E0ADCA19BE">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RIDERPARTICIPATIONCLASSIFICATIONPLACE</sourceObjSchema>
+<sourceObjName>CLASIFICATION_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>F63CCBFD-82F5-F9CB-7443-25D71CC5B686</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3A069F4-7E83-FE0D-4D3F-7029C3DEFF85" referredColumn="27E052B0-E827-1BB7-D991-A145478A71DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76E8C78D-CA97-21EE-6BB3-165F9F6CF9BC" schemaObject="EDD06B13-D1DC-00A1-5100-CDBC65A18D56" name="RIDERPARTICIPATIONCLASSIFICATIONPLACE_PK">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>SYS_C008454</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>8DE9CDF5-263A-6521-E082-AE2D0B9D64F2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2CB2F8F-790F-0F0F-E6DF-F16AF5B10107"/>
+<colUsage columnID="C49B5FA4-30C2-29D8-8323-92E0ADCA19BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AAB2C65-D1FF-6CE7-1686-627783F5BE4A" name="SYS_C008455">
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C49B5FA4-30C2-29D8-8323-92E0ADCA19BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="655FBFDA-F810-3CE9-D690-EC514F591B68" name="SYS_C008456">
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2CB2F8F-790F-0F0F-E6DF-F16AF5B10107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -49,6 +49,150 @@
 <ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="RIDE_START_TIMESTAMP" id="077C5E66-6121-F7B4-EB2B-8055DF3AEB65">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDE_START_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>0572838F-0E8D-97F8-95AF-46810774F6A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDE_END_TIMESTAMP" id="8EC4A71B-8CB7-AA96-1153-E63CCC729D02">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDE_END_TIMESTAMP</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>31D92CF5-5F21-CCB3-D42D-044CD2253CFF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDE_GPX_FILE" id="3D44C25A-9273-2EAB-38A6-6E47B4B780B2">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDE_GPX_FILE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>44A218F8-0496-33AE-E846-0B3BD3149B10</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDER_ID" id="80BA1968-6A04-C53A-DF7C-E5617E495F2B">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RIDER_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>AC5BBE39-8D54-62BA-79DD-1F82FC74FD98</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7C21462-B751-B4C8-03EA-1B079F7EBB69" referredColumn="2255BBCE-C572-E5EF-996D-1EC3BE2DEB48"/>
+</associations>
+</Column>
+<Column name="RACE_ID" id="32E83548-65F3-701B-5AAB-3A9936042B04">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>RACE_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>41E2D20E-30C8-7B3B-ACEC-4305451E5629</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18501B36-C0CD-98B3-9FE2-6B7318ACA758" referredColumn="F383BA62-00EC-D2FA-C005-65EE1F83198C"/>
+</associations>
+</Column>
+<Column name="BIKE_ID" id="2D8FEA5D-4D4F-48F4-807F-7211A9B288A0">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>BIKE_ID</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-11-27 21:29:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>C452CD10-8080-C6DD-68A6-85DABA55C1AE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DED16F4-AEF3-3908-02EF-EF9CAC3F67F7" referredColumn="C8AEFEBF-FDD0-AFC1-E942-D4B01593F7B5"/>
+</associations>
+</Column>
+<Column name="PLACE_GENERATED_OVERALL" id="6F2CE549-2DDE-6DBC-C6AC-A7A18F2647FE">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>PLACE_GENERATED_OVERALL</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>4F7BF431-9C8E-FE85-29AC-568E33D52150</importedID>
+<constraintName>RACE_PARTICIPATION_PLACE_ASSIGNED_POSITIVE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="place_generated_overall &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="place_generated_overall &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACE_ASSIGNED_OVERALL" id="50C627E8-932F-9CF8-0F13-2209279060EB">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
+<sourceObjName>PLACE_ASSIGNED_OVERALL</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>4739332C-BE12-D050-CC49-CFA0C13C145C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="PLACE_GENERATED" id="3A24AAFD-C739-CC46-88E9-FD5D4FB0F38B">
 <sourceConnName>oracle docker</sourceConnName>
 <sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
@@ -92,111 +236,6 @@
 </checkConstraint>
 <ownDataTypeParameters>,*,0</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RIDE_START_TIMESTAMP" id="077C5E66-6121-F7B4-EB2B-8055DF3AEB65">
-<sourceConnName>oracle docker</sourceConnName>
-<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
-<sourceObjName>RIDE_START_TIMESTAMP</sourceObjName>
-<createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<importedID>0572838F-0E8D-97F8-95AF-46810774F6A0</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RIDE_END_TIMESTAMP" id="8EC4A71B-8CB7-AA96-1153-E63CCC729D02">
-<sourceConnName>oracle docker</sourceConnName>
-<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
-<sourceObjName>RIDE_END_TIMESTAMP</sourceObjName>
-<createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<importedID>31D92CF5-5F21-CCB3-D42D-044CD2253CFF</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RACE_PARTICIPATION_GPX_REQUIRES_TIMESTAMP</notNullConstraintName>
-</Column>
-<Column name="RIDE_GPX_FILE" id="3D44C25A-9273-2EAB-38A6-6E47B4B780B2">
-<sourceConnName>oracle docker</sourceConnName>
-<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
-<sourceObjName>RIDE_GPX_FILE</sourceObjName>
-<createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<importedID>44A218F8-0496-33AE-E846-0B3BD3149B10</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256 CHAR</dataTypeSize>
-<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RIDER_ID" id="80BA1968-6A04-C53A-DF7C-E5617E495F2B">
-<sourceConnName>oracle docker</sourceConnName>
-<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
-<sourceObjName>RIDER_ID</sourceObjName>
-<createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<importedID>AC5BBE39-8D54-62BA-79DD-1F82FC74FD98</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D7C21462-B751-B4C8-03EA-1B079F7EBB69" referredColumn="2255BBCE-C572-E5EF-996D-1EC3BE2DEB48"/>
-</associations>
-</Column>
-<Column name="RACE_ID" id="32E83548-65F3-701B-5AAB-3A9936042B04">
-<sourceConnName>oracle docker</sourceConnName>
-<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
-<sourceObjName>RACE_ID</sourceObjName>
-<createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<importedID>41E2D20E-30C8-7B3B-ACEC-4305451E5629</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="18501B36-C0CD-98B3-9FE2-6B7318ACA758" referredColumn="F383BA62-00EC-D2FA-C005-65EE1F83198C"/>
-</associations>
-</Column>
-<Column name="BIKE_ID" id="2D8FEA5D-4D4F-48F4-807F-7211A9B288A0">
-<sourceConnName>oracle docker</sourceConnName>
-<sourceObjSchema>RACEPARTICIPATION</sourceObjSchema>
-<sourceObjName>BIKE_ID</sourceObjName>
-<createdBy>tomek</createdBy>
-<createdTime>2023-11-27 21:29:01 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<importedID>C452CD10-8080-C6DD-68A6-85DABA55C1AE</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6DED16F4-AEF3-3908-02EF-EF9CAC3F67F7" referredColumn="C8AEFEBF-FDD0-AFC1-E942-D4B01593F7B5"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -295,6 +334,16 @@
 <ownerDesignName>erd</ownerDesignName>
 <importedID>2AE347FD-1296-B24F-EC20-8F0BF963A4D9</importedID>
 <rule><![CDATA[ride_end_timestamp > ride_start_timestamp]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="RACE_PARTICIPATION_PLACE_GENERATED_POSITIVE" directorySegmentName="seg_0" id="C421BDE3-D1DE-8B68-5B1B-28B214E13963">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>RACE_PARTICIPATION_PLACE_GENERATED_POSITIVE</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>A9AB6A87-4D85-3ED1-BA97-92F765149D07</importedID>
+<rule><![CDATA[place_generated_overall > 0]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>
