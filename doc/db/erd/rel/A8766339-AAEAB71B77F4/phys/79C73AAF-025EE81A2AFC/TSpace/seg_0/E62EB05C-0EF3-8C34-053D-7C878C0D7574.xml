@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="DATA_TS" directorySegmentName="seg_0" id="E62EB05C-0EF3-8C34-053D-7C878C0D7574">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>DATA_TS</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

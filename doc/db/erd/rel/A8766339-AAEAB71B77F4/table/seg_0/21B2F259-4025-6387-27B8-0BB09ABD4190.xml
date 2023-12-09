@@ -42,6 +42,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11 CHAR</dataTypeSize>
 <listOfValues>
+<valueDef value="&apos;cancelled&apos;" description=""/>
 <valueDef value="&apos;ended&apos;" description=""/>
 <valueDef value="&apos;in_progress&apos;" description=""/>
 <valueDef value="&apos;pending&apos;" description=""/>
@@ -75,8 +76,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>2048 CHAR</dataTypeSize>
+<ownDataTypeParameters>2048 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="REQUIREMENTS" id="AF99DBCE-E3F7-F2B6-CD8D-9C615B7BAD7C">
@@ -301,6 +302,27 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000 CHAR</dataTypeSize>
 <ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_LAPS" id="3D0F8039-73B9-FC60-9253-34D0BB835965">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>RACE</sourceObjSchema>
+<sourceObjName>NO_LAPS</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<importedID>1CDD34DA-1D6B-B7E2-0E39-884DFBA68324</importedID>
+<constraintName>RACE_NO_LAPS_POSITIVE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="no_laps &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="no_laps &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

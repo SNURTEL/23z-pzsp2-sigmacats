@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ACCOUNT_TYPE_COORDINATOR_TRIGGER" directorySegmentName="seg_0" id="2CC4B564-8449-A140-4BBB-5127CF62BE3C">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>ACCOUNT_TYPE_COORDINATOR_TRIGGER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:17 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE   account_type account.type%type; BEGIN     SELECT type into account_type from account where ID = :NEW.id;     IF 'coordinator' != account_type THEN         raise_application_error(-20001, 'Account type for id ' || TO_CHAR(:NEW.id) || 'must be coordinator');     end if; end;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>669441F4-CEF9-6B67-F1FF-0C4C0A5D0FE4</owner>
+<table>14E52131-494C-8F8D-0208-A3BB280C968A</table>
+</TriggerOraclev10g>
