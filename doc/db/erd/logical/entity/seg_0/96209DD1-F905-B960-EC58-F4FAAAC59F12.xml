@@ -5,7 +5,6 @@
 <generatorID>05B32F13-B72D-D4E0-0BB7-EF13F8035B95</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -23,16 +22,14 @@
 <generatorID>78F97276-817A-C3AB-6353-C34B6A1008AF</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
 <defaultValue>&quot;USER1&quot;.&quot;RACEPARTICIPATION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="STATUS" id="698AB71D-A9BC-3065-F341-98166C88FAE9">
 <createdBy>tomek</createdBy>
@@ -40,7 +37,6 @@
 <generatorID>65B0F1C3-E6D5-CDA6-82FC-B5EB56A2D1E4</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <constraintName>RACE_PARTICIPATION_STATUS_ENUM</constraintName>
@@ -55,13 +51,12 @@
 </listOfValues>
 <ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PLACE GENERATED" id="C05E29E9-4ECA-8031-C539-FAD0A0D7EDB1">
+<Attribute name="PLACE GENERATED_OVERALL" id="C05E29E9-4ECA-8031-C539-FAD0A0D7EDB1">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:35:58 UTC</createdTime>
 <generatorID>3A24AAFD-C739-CC46-88E9-FD5D4FB0F38B</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <constraintName>RACE_PARTICIPATION_PLACE_GENERATED_POSITIVE</constraintName>
@@ -70,20 +65,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
 <checkConstraint>
 <implementationDef dbType="Generic Constraint" definition="place_generated &gt; 0"/>
 <implementationDef dbType="Oracle Database 12cR2" definition="place_generated &gt; 0"/>
 </checkConstraint>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PLACE ASSIGNED" id="57DBB7A2-6A88-EB88-F891-BA94DFE47046">
+<Attribute name="PLACE ASSIGNED_OVERALL" id="57DBB7A2-6A88-EB88-F891-BA94DFE47046">
 <createdBy>tomek</createdBy>
 <createdTime>2023-11-27 21:35:58 UTC</createdTime>
 <generatorID>3B6477B4-8F09-C600-8A90-FA2DADBD3980</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <constraintName>RACE_PARTICIPATION_PLACE_ASSIGNED_POSITIVE</constraintName>
@@ -92,12 +85,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
 <checkConstraint>
 <implementationDef dbType="Generic Constraint" definition="place_assigned &gt; 0"/>
 <implementationDef dbType="Oracle Database 12cR2" definition="place_assigned &gt; 0"/>
 </checkConstraint>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RIDE START TIMESTAMP" id="BB598F29-BC08-0E50-A8BE-DAE6F0DF199D">
 <createdBy>tomek</createdBy>
@@ -105,7 +97,6 @@
 <generatorID>077C5E66-6121-F7B4-EB2B-8055DF3AEB65</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -121,7 +112,6 @@
 <generatorID>8EC4A71B-8CB7-AA96-1153-E63CCC729D02</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -136,7 +126,6 @@
 <generatorID>3D44C25A-9273-2EAB-38A6-6E47B4B780B2</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -152,7 +141,6 @@
 <generatorID>3AE595C5-2DA8-CCA4-1FEE-F7D08E934936</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <referedAttribute>867279E4-B6AF-BD40-4B68-566AB9B473E4</referedAttribute>
@@ -169,7 +157,6 @@
 <generatorID>F5B77DA7-644B-A0FF-303A-ABFE42D8A606</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <referedAttribute>BAF34E8A-7D58-C5E0-94FC-ED72DED7971A</referedAttribute>
@@ -188,7 +175,6 @@
 <generatorID>458873D9-A13F-E32C-F62A-BE3FDBA71607</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
-<item key="625E67FF-277A-2910-8D96-DF5723631FD1" value="true"/>
 <item key="A8766339-44E8-CF2E-47F9-AAEAB71B77F4" value="true"/>
 </engineerTo>
 <pk>true</pk>
