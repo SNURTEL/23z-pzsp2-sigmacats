@@ -1,5 +1,14 @@
-version: "0.1"
+version: "0.2"
 services:
+  nginx:
+    container_name: nginx
+    image: nginx
+    volumes:
+      - ./conf:/etc/nginx
+      - /etc/letsencrypt/:/etc/certs
+    ports:
+      - "80:80"
+      - "443:443"
 
   backend:
     container_name: fastapi-backend
@@ -12,7 +21,7 @@ services:
     env_file:
       - .env
     ports:
-      - "8000:80"
+      - "8000:8000"
     depends_on:
       - db
 
