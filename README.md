@@ -74,13 +74,13 @@ docker exec fastapi-backend "pytest"
 ## Try it out
 
 Although the app's not doing much for now, you can check some basic tools that may come in handy later:
-- App runs at [port 8000](localhost:8000)
-- API documentation is available at [/docs](localhost:8000/docs)
-- Cloudbeaver is available at [port 8080](localhost:8080)
+- App runs at [port 80](http://localhost)
+- API documentation is available at [/docs](http://localhost/docs)
+- Cloudbeaver is available at [/cloudbeaver](http://localhost/cloudbeaver)
   - Use default credentials to log in
-- Celery worker is running by default. Check [/celery](localhost:8000/celery) to schedule a simple 3-second task.
-  - To see available workers, current tasks and the message queue, check Flower at [port 5555](localhost:5555)
-- To check if DB connection is working, visit [/db](localhost:8000/db). Response should contain all account in DB 
+- Celery worker is running by default. Check [/celery](http://localhost/celery) to schedule a simple 3-second task.
+  - To see available workers, current tasks and the message queue, check Flower at [/flower](http://localhost/flower)
+- To check if DB connection is working, visit [/db](http://localhost/db). Response should contain all account in DB 
   (by default - one account).
 
 ## Default configuration
@@ -97,7 +97,7 @@ Default config is stored in `.env.sample`. Default credentials included:
 
 ### Documentation
 - Non-technical project documentation is available on [project Google Drive](https://drive.google.com/drive/folders/1Zp6dHEMV8WkCuym4bZPDuKnoiORsDU2a).
-- API documentation is available at [/docs](localhost:8000/docs) 
+- API documentation is available at [/docs](http://localhost/docs) 
 
 ### Contributing
 - Project development is managed in a GitHub project [issue board](https://github.com/users/SNURTEL/projects/1/views/1)
