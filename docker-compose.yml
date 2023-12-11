@@ -27,6 +27,19 @@ services:
     depends_on:
       - db
 
+  web:
+    container_name: flutter-web
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+      args:
+        BUILD_ENV: ${BUILD_ENV:-development}
+#    command: flutter run -d web-server --web-port=80
+    env_file:
+      - .env
+    ports:
+      - "1200:80"
+
   db:
       container_name: oracle-db
       hostname: oracle-db
