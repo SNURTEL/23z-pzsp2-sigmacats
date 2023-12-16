@@ -11,7 +11,11 @@ services:
       - "80:80"
       - "443:443"
       - "5050:5050"
-#    command: [ nginx-debug, '-g', 'daemon off;' ]  # uncomment to enable debug mode
+    depends_on:
+      - backend
+      - celery-flower
+      - cloudbeaver
+  #    command: [ nginx-debug, '-g', 'daemon off;' ]  # uncomment to enable debug mode
 
 
   backend:
