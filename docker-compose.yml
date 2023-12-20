@@ -7,6 +7,7 @@ services:
       - ./conf/nginx.conf:/etc/nginx/nginx.conf
       - /etc/letsencrypt/:/etc/certs
       - ./data/nginx/tmp:/tmp
+      - ./data/attachments:/attachments
     ports:
       - "80:80"
       - "443:443"
@@ -26,6 +27,9 @@ services:
       args:
         BUILD_ENV: ${BUILD_ENV:-development}
     command: ./start-backend.sh
+    volumes:
+      - ./data/nginx/tmp:/tmp
+      - ./data/attachments:/attachments
     env_file:
       - .env
     ports:
