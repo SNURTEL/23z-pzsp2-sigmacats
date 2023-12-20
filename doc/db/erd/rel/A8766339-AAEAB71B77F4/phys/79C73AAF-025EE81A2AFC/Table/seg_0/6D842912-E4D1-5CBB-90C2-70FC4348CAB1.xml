@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ALEMBIC_VERSION" directorySegmentName="seg_0" id="6D842912-E4D1-5CBB-90C2-70FC4348CAB1">
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:20:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7C0F840B-D366-80FE-AE40-EE8FC4C1F620</segment>
+<tableSpace>E62EB05C-0EF3-8C34-053D-7C878C0D7574</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VERSION_NUM" id="2CF4D668-3D5F-6D55-C7F4-9D2018E3A981">
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:20:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ALEMBIC_VERSION_PKC" id="CEC27A78-192F-CD0C-D851-8DE056D3C0FF">
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:20:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>EDD06B13-D1DC-00A1-5100-CDBC65A18D56</schemaObject>
+<segment>BAA09E8F-28D8-AD3E-820B-0D5DE677F43C</segment>
+<tableSpace>E62EB05C-0EF3-8C34-053D-7C878C0D7574</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ALEMBIC_VERSION_PKC" id="314AA6E5-268A-9447-1A3D-651C6C933B55">
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:20:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<segment>BAA09E8F-28D8-AD3E-820B-0D5DE677F43C</segment>
+<tableSpace>E62EB05C-0EF3-8C34-053D-7C878C0D7574</tableSpace>
+<existingIndex>CEC27A78-192F-CD0C-D851-8DE056D3C0FF</existingIndex>
+<indexSegment>BAA09E8F-28D8-AD3E-820B-0D5DE677F43C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

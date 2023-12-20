@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ACCOUNT_TYPE_ADMIN_TRIGGER" directorySegmentName="seg_0" id="ABB6B043-FCFA-7680-E49A-296A5E9656E4">
+<sourceConnName>oracle docker</sourceConnName>
+<sourceObjSchema>USER1</sourceObjSchema>
+<sourceObjName>ACCOUNT_TYPE_ADMIN_TRIGGER</sourceObjName>
+<createdBy>tomek</createdBy>
+<createdTime>2023-12-09 16:21:17 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE   account_type account.type%type; BEGIN     SELECT type into account_type from account where ID = :NEW.id;     IF 'admin' != account_type THEN         raise_application_error(-20001, 'Account type for id ' || TO_CHAR(:NEW.id) || 'must be admin');     end if; end;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>669441F4-CEF9-6B67-F1FF-0C4C0A5D0FE4</owner>
+<table>637409FD-B0D7-DA91-106F-046453F9C8DE</table>
+</TriggerOraclev10g>
