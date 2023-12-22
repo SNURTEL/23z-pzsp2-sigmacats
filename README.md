@@ -86,12 +86,15 @@ Although the app's not doing much for now, you can check some basic tools that m
 ## Default configuration
 Default config is stored in `.env.sample`. Default credentials included:
 
-| Type            | Username | Password |
-|-----------------|----------|----------|
-| Oracle DB admin | `system`  | `oracle`  |
-| Oracle user  | `user1` | `user1` |
-| Cloudbeaver admin | `rootbeaver` | `cloudbeaver` |
-| Cloudbeaver user (currently unavailable) | `user1` | `user1` |
+| Type                                     | Username                    | Password         |
+|------------------------------------------|-----------------------------|------------------|
+| Dummy rider account                      | `rider@default.sigma`       | `rider123`       |
+| Dummy coordinator account                | `coordinator@default.sigma` | `coordinator123` |
+| Dummy admin account                      | `admin@default.sigma`       | `admin123`       |
+| Oracle DB admin                          | `system`                    | `oracle`         |
+| Oracle user                              | `user1`                     | `user1`          |
+| Cloudbeaver admin                        | `rootbeaver`                | `cloudbeaver`    |
+| Cloudbeaver user (currently unavailable) | `user1`                     | `user1`          |
 
 **In you're running in production, remember to change those!**
 
