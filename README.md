@@ -41,7 +41,7 @@ Get the project up & running with Docker.
 chmod +x setup.sh
 ./setup.sh
 ```
-to copy the default envfile, login to Oracle Container Image Repository, update git submodules and setup Cloudbeaver.
+to copy the default envfile, login to Oracle Container Image Repository, update git submodules and setup Cloudbeaver. Most of the app should be good to go, but some variables may need adjustment in `.env` - for example, password reset functionality will not work without setting SMTP sever details.
 
 ### Build
 ```shell
@@ -73,7 +73,6 @@ docker exec fastapi-backend "pytest"
 
 ## Try it out
 
-Although the app's not doing much for now, you can check some basic tools that may come in handy later:
 - App runs at [port 80](http://localhost)
 - API documentation is available at [/docs](http://localhost/docs)
 - Cloudbeaver is available at [/cloudbeaver](http://localhost/cloudbeaver)
