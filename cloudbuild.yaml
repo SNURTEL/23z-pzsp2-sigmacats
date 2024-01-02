@@ -1,0 +1,41 @@
+steps:
+- name: 'bash'
+  script: |
+    #!/usr/bin/env bash
+    cp .env.sample .env
+    cp -r data/cloudbeaver.default data/cloudbeaver
+- name: gcr.io/cloud-builders/git
+  script: |
+    git config --global url."https://${_GITHUB_TOKEN}@github.com".insteadOf "https://github.com"
+- name: gcr.io/cloud-builders/git
+  args: [ 'submodule', 'update', '--init', '--remote', '--recursive' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['login', '--username', '$_ORACLE_USERNAME', '--password', '$_ORACLE_PASSWORD', 'container-registry.oracle.com']
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['compose', 'build']
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['tag', 'workspace-cloudbeaver', 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/cloudbeaver:latest']
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['tag', 'workspace-backend', 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/backend:latest']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['tag', 'workspace-web', 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/web:latest']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['tag', 'workspace-celery-worker', 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/celery-worker:latest']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['tag', 'workspace-celery-beat', 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/celery-beat:latest']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['tag', 'workspace-celery-flower', 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/celery-flower:latest']
+
+images:
+- 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/cloudbeaver:latest'
+- 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/backend:latest'
+- 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/web:latest'
+- 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/celery-worker:latest'
+- 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/celery-beat:latest'
+- 'europe-central2-docker.pkg.dev/$PROJECT_ID/pzsp2-docker-images/celery-flower:latest'
+
+options:
+  automapSubstitutions: true
