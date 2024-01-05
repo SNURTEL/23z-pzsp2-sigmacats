@@ -65,20 +65,20 @@ cd ../web
 git reset --hard HEAD
 cd ..
 
-git checkout feature/68/deploy-the-app
-git pull origin feature/68/deploy-the-app
+git checkout main
+git pull origin
 # note: submodules are updated to ref pinned in main repo, not to HEAD of main branch
 # in case of a version mismatch, run dependabot dependency update
 git submodule update --init --remote
 
 cd backend
 git fetch origin
-git checkout feature/68/deploy-the-app
+git pull origin
 cd ..
 
 cd web
 git fetch origin
-git checkout feature/68/deploy-the-app
+git pull origin
 cd ..
 
 # obtain .env from secret manager
