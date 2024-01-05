@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+
+# this script sets up the app on a virtual machine
+# it should be copied to a Google Cloud Storage bucked and passed as a startup script to the VM
+
+set -o xtrace
+
+# set HOME to enable using git config
+mkdir /home/tomek_owienko
+export HOME="/home/tomek_owienko"
+cd $HOME
+echo "" > ~/.gitconfig
+
+apt-get install -y docker docker.io git curl python3
+
+# docker compose v2 is not available in Debian repo, we need to install it manually
+if ! docker compose version
+then
+    mkdir -p /usr/local/lib/docker/cli-plugins
+    curl -SL https://github.com/docker/compose/releases/download/v2.23.3/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
+    chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+fi
+
+# get project ID from VM metadata
+METADATA_ENDPOINT="http://metadata.google.internal/computeMetadata/v1/instance"
+
+function get_metadata() {
+    curl $METADATA_ENDPOINT/attributes/$1 -H "Metadata-Flavor: Google" -fsSL
+}
+
+PROJECT_ID="$(get_metadata project-id)"
+
+# get all necessary secrets from Google Cloud Secret Manager
+function get_accesstoken() {
+    curl -s $METADATA_ENDPOINT/service-accounts/default/token -H "Metadata-Flavor: Google" | python3 -c "import json,sys;obj=json.load(sys.stdin);print(obj['access_token'])"
+}
+
+function get_secret() {
+    curl https://secretmanager.googleapis.com/v1/projects/$1/secrets/$2/versions/latest:access --request "GET" -H "authorization: Bearer $3" -H "content-type: application/json" | python3 -c "import json,sys;obj=json.load(sys.stdin);print(obj['payload']['data'])" | base64 -d
+}
+
+ACCESS_TOKEN="$(get_accesstoken)"
+
+_GITHUB_TOKEN=$(get_secret $PROJECT_ID _GITHUB_TOKEN $ACCESS_TOKEN)
+_ORACLE_USERNAME=$(get_secret $PROJECT_ID _ORACLE_USERNAME $ACCESS_TOKEN)
+_ORACLE_PASSWORD=$(get_secret $PROJECT_ID _ORACLE_PASSWORD $ACCESS_TOKEN)
+
+# use github token to login
+git config --global url."https://${_GITHUB_TOKEN}@github.com".insteadOf "https://github.com"
+
+
+if ! ls | grep project
+then
+    mkdir project
+    git clone https://github.com/SNURTEL/23z-pzsp2-sigmacats project
+fi
+
+cd project
+docker compose down
+
+git reset --hard HEAD
+cd backend
+git reset --hard HEAD
+cd ../web
+git reset --hard HEAD
+cd ..
+
+git checkout main
+git pull origin
+# note: submodules are updated to ref pinned in main repo, not to HEAD of main branch
+# in case of a version mismatch, run dependabot dependency update
+git submodule update --init --remote
+
+cd backend
+git fetch origin
+git pull origin
+cd ..
+
+cd web
+git fetch origin
+git pull origin
+cd ..
+
+# obtain .env from secret manager
+get_secret $PROJECT_ID _PRODUCTION_ENVFILE $ACCESS_TOKEN > .env
+get_secret $PROJECT_ID _FLUTTER_PRODUCTION_ENVFILE $ACCESS_TOKEN > web/app/.env
+get_secret $PROJECT_ID _FLUTTER_PRODUCTION_ENVFILE $ACCESS_TOKEN > web/app/.env.sample
+cp -r data/cloudbeaver.default data/cloudbeaver
+cp -r data/attachments.default/* data/attachments
+
+docker login --username $_ORACLE_USERNAME --password $_ORACLE_PASSWORD container-registry.oracle.com
+
+docker compose up --build --detach
