@@ -122,8 +122,10 @@ services:
     command: ./start-flower.sh
     env_file:
       - .env
+    environment:
+      - FLOWER_URL_PREFIX=flower
     ports:
-      - 5001:5001
+      - 5555:5555
     depends_on:
       - redis
       - db
