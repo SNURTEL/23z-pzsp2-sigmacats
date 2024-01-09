@@ -92,6 +92,8 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     command: ./start-worker.sh
+    volumes:
+      - ./data/attachments:/attachments
     env_file:
       - .env
     depends_on:
@@ -104,6 +106,8 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     command: ./start-beat.sh
+    volumes:
+      - ./data/attachments:/attachments
     env_file:
       - .env
     depends_on:
@@ -119,7 +123,7 @@ services:
     env_file:
       - .env
     ports:
-      - 5555:5555
+      - 5001:5001
     depends_on:
       - redis
       - db
