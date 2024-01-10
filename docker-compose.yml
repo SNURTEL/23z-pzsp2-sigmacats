@@ -125,7 +125,7 @@ services:
     environment:
       - FLOWER_URL_PREFIX=flower
     ports:
-      - 5555:5555
+      - 5001:5001
     depends_on:
       - redis
       - db
