@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Setup script for application
 
 set -o xtrace
 

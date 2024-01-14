@@ -1,0 +1,1 @@
+This folder contains defaults used by the application

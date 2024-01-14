@@ -1,3 +1,5 @@
+# This file contains necessary configuration for proper merging of the project
+
 version: 2
 
 updates:
