@@ -1,4 +1,4 @@
-# This file contains necessary configuration for proper merging of the project
+# This file contains Dependabot configuration for detecting updates on submodule dependencies
 
 version: 2
 
