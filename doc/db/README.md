@@ -1,0 +1,1 @@
+This folder contains files related to database modelling, like models, images and SQLDeveloper files.

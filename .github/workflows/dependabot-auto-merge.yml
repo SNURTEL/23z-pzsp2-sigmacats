@@ -1,3 +1,5 @@
+# This file contains GA configuration automatically merging PRs created by Dependabot
+
 name: Dependabot auto-merge
 on: pull_request
 

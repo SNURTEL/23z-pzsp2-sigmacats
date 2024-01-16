@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Setup script for application. Copies default data (including envfile), logs in to Oracle Image Registry to download DB container image and initializes submodules.
 
 set -o xtrace
 

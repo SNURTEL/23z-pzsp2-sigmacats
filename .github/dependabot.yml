@@ -1,3 +1,5 @@
+# This file contains Dependabot configuration for detecting updates on submodule dependencies
+
 version: 2
 
 updates:
