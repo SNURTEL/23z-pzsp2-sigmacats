@@ -1,11 +1,10 @@
-
 version: "0.2"
 services:
   nginx:
     container_name: nginx
     image: andarius/nginx-upload
     volumes:
-      - ./conf/nginx.conf:/etc/nginx/nginx.conf
+      - ./conf/nginx.conf:/etc/nginx/nginx.conf.template
       - /etc/letsencrypt/:/etc/certs
       - ./data/nginx/tmp:/tmp
       - ./data/attachments:/attachments
@@ -17,7 +16,9 @@ services:
       - backend
       - celery-flower
       - cloudbeaver
-  #    command: [ nginx-debug, '-g', 'daemon off;' ]  # uncomment to enable debug mode
+    env_file:
+      - .env
+    command: /bin/sh -c " sed 's#FRONTEND_URL#${FRONTEND_URL}#' /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf && cat /etc/nginx/nginx.conf &&  nginx -g 'daemon off;'"
 
 
   backend:
