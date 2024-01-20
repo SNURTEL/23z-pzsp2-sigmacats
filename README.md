@@ -74,7 +74,7 @@ docker exec fastapi-backend "pytest"
 ## Try it out
 
 - App runs at [port 80](http://localhost)
-- API documentation is available at [/docs](http://localhost/docs)
+- API documentation is available at [/api/docs](http://localhost/api/docs)
 - Cloudbeaver is available at [/cloudbeaver](http://localhost/cloudbeaver)
   - Use default credentials to log in
 - Celery worker is running by default. Check [/celery](http://localhost/celery) to schedule a simple 3-second task.
@@ -99,7 +99,7 @@ Default config is stored in `.env.sample`. Default credentials included:
 
 ### Documentation
 - Non-technical project documentation is available on [project Google Drive](https://drive.google.com/drive/folders/1Zp6dHEMV8WkCuym4bZPDuKnoiORsDU2a).
-- API documentation is available at [/docs](http://localhost/docs) 
+- API documentation is available at [/api/docs](http://localhost/api/docs) 
 
 ### Contributing
 - Project development is managed in a GitHub project [issue board](https://github.com/users/SNURTEL/projects/1/views/1)
