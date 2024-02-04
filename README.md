@@ -1,14 +1,15 @@
-# 23Z PZSP2
+# Bicycle league  racing 
+### 23Z PZSP2
 
 ---
 
 ## About the project 
-The aim of the project is to create a system to support the organization of bicycle races in league format. The system should support organizers in organizing races and users in participating in races.
-Organizers define a league as a series of short races of 2-3 laps on a track in the form of loops, from which results are collected and aggregated over the course of about 10 races. This makes it possible to determine which participant is the best.
+The aim of the project was to create a system for organizing and conducting bicycle races in league format. 
+
 
 This is the main project repository. 
 - For backend, visit [this repo](https://github.com/SNURTEL/sigmacats-backend)
-- Web Flutter app is available [here](https://github.com/SNURTEL/sigmacats-web)
+- Flutter web app is available [here](https://github.com/SNURTEL/sigmacats-web)
 - If you are looking for the mobile app, check [here](https://github.com/SNURTEL/sigmacats-mobile).
 
 #### SIGMACATS team:
@@ -18,11 +19,7 @@ This is the main project repository.
 - Anna Schäfer
 
 ## Built with
-- FastAPI for backend
-- Oracle Database for persistence
-- Celery and Redis for task management
-- Docker and Docker Compose for containerization
-- GitHub Actions for CI
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Celery](https://img.shields.io/badge/celery-%23a9cc54.svg?style=for-the-badge&logo=celery&logoColor=ddf4a4) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white) 
 
 ## Getting started
 
@@ -87,13 +84,13 @@ Default config is stored in `.env.sample`. Default credentials included:
 
 | Type                                     | Username                    | Password         |
 |------------------------------------------|-----------------------------|------------------|
-| Dummy rider account                      | `rider@default.sigma`       | `rider123`       |
+| Dummy rider account 1                    | `firstrider@default.sigma`  | `rider123`       |
+| Dummy rider account 2                    | `secondrider@default.sigma` | `rider123`       |
 | Dummy coordinator account                | `coordinator@default.sigma` | `coordinator123` |
 | Dummy admin account                      | `admin@default.sigma`       | `admin123`       |
 | Oracle DB admin                          | `system`                    | `oracle`         |
 | Oracle user                              | `user1`                     | `user1`          |
 | Cloudbeaver admin                        | `rootbeaver`                | `cloudbeaver`    |
-| Cloudbeaver user (currently unavailable) | `user1`                     | `user1`          |
 
 **In you're running in production, remember to change those!**
 
