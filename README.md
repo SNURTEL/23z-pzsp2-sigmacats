@@ -54,10 +54,10 @@ repositories:
 
 #### SIGMACATS team:
 
-- @jjozwiak113
-- @Mewash1
-- @SNURTEL
-- @avvris
+- [@jjozwiak113](https://www.github.com/jjozwiak113)
+- [@Mewash1](https://www.github.com/Mewash1)
+- [@SNURTEL](https://www.github.com/SNURTEL)
+- [@avvris](https://www.github.com/avvris)
 
 
 ## Built with
